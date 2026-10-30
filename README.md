@@ -34,9 +34,12 @@ Seu progresso, anotações e textos ficam **só no celular** (armazenamento do n
 2. **Instalar no celular** — abra o endereço acima:
    - Android (Chrome): menu ⋮ → *Adicionar à tela inicial*.
    - iPhone (Safari): compartilhar → *Adicionar à Tela de Início*.
-3. **Notificações** — instale o app **ntfy** (Play Store / App Store), toque em *+* e assine um tópico com nome difícil de adivinhar (ex.: `aurora-` seguido de letras aleatórias).
-   No GitHub: *Settings → Secrets and variables → Actions → New repository secret*, nome `NTFY_TOPIC`, valor = o mesmo tópico.
+3. **Notificações** (sem app extra; Web Push do próprio Aurora):
+   - No app instalado: *Diário → Notificação das 07:00 → Ativar notificações*, depois *Enviar código de ativação*.
+   - O código vira o secret `PUSH_SUBSCRIPTION` do repositório (o Claude cadastra com `gh secret set`, ou você em *Settings → Secrets and variables → Actions*).
+   - A chave privada de envio fica no secret `VAPID_PRIVATE_KEY`; a pública, em `content/curriculo.json`.
 4. **Testar** — *Actions → Notificação diária → Run workflow*. A notificação chega no celular e abre a lição do dia.
+   Se um envio falhar (ex.: inscrição expirou depois de reinstalar o app), o GitHub avisa que o workflow falhou: ative de novo e mande o novo código.
 
 Observações:
 - O agendamento do GitHub pode atrasar alguns minutos.

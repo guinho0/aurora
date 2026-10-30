@@ -1,20 +1,14 @@
-// Envia a notificação do dia pelo ntfy (https://ntfy.sh).
-// Variáveis: NTFY_TOPIC (obrigatória), APP_URL (endereço do app publicado), NTFY_SERVER (opcional).
-// Uso local para testar: NTFY_TOPIC=meu-topico APP_URL=https://... node scripts/notificar.mjs
+// Envia a notificação do dia direto para o app no celular (Web Push).
+// Variáveis: VAPID_PRIVATE_KEY e PUSH_SUBSCRIPTION (o código que o app mostra em Diário → Notificações).
+// DRY_RUN=1 só mostra o que seria enviado. TESTE=1 envia mesmo antes do início ou no fim de semana.
 import { readFileSync, existsSync } from "node:fs";
+import webpush from "web-push";
 
 const DIAS = ["seg", "ter", "qua", "qui", "sex"];
-const topico = process.env.NTFY_TOPIC;
-const appUrl = process.env.APP_URL ? process.env.APP_URL.replace(/\/?$/, "/") : "";
-const servidor = process.env.NTFY_SERVER || "https://ntfy.sh";
 const ensaio = process.env.DRY_RUN === "1";
-// TESTE=1 envia mesmo antes do início ou no fim de semana (usa a segunda da semana 1).
 const teste = process.env.TESTE === "1";
 
-if (!topico && !ensaio) {
-  console.error("Defina NTFY_TOPIC.");
-  process.exit(1);
-}
+const curriculo = JSON.parse(readFileSync("content/curriculo.json", "utf8"));
 
 // Data de hoje no fuso de São Paulo, independente do relógio do servidor.
 const partes = Object.fromEntries(
@@ -30,7 +24,6 @@ if (semanaDia === undefined) {
   process.exit(0);
 }
 
-const curriculo = JSON.parse(readFileSync("content/curriculo.json", "utf8"));
 const [a, m, d] = curriculo.inicio.split("-").map(Number);
 let delta = Math.round((hoje - Date.UTC(a, m - 1, d)) / 86400000);
 if (delta < 0 && teste) delta = 0;
@@ -44,37 +37,43 @@ const dia = DIAS[semanaDia];
 const arquivo = `content/semanas/semana-${String(semana).padStart(2, "0")}.json`;
 const dados = existsSync(arquivo) ? JSON.parse(readFileSync(arquivo, "utf8")) : null;
 
-let titulo, mensagem, link, tags;
+let titulo, corpo, rota;
 if (!dados) {
   titulo = `Semana ${semana} ainda não foi escrita`;
-  mensagem = `Peça ao Claude: "gere a semana ${semana} do Aurora". Enquanto isso, que tal reler um texto antigo?`;
-  link = appUrl;
-  tags = ["hourglass"];
+  corpo = `Peça ao Claude: "gere a semana ${semana} do Aurora". Enquanto isso, releia um texto antigo.`;
+  rota = "#/";
 } else if (dia === "sex") {
-  titulo = `Sexta: dia de escrever`;
-  mensagem = `${dados.sexta.titulo}\nCostura das lições da semana: ${dados.tema}.`;
-  link = `${appUrl}#/sexta/${semana}`;
-  tags = ["pencil2"];
+  titulo = "Sexta: dia de escrever";
+  corpo = `${dados.sexta.titulo}\nCosture as lições da semana: ${dados.tema}.`;
+  rota = `#/sexta/${semana}`;
 } else {
   const l = dados.licoes.find((x) => x.dia === dia);
   titulo = `${l.disciplina}: ${l.titulo}`;
-  mensagem = `${l.subtitulo} · ${l.minutos} min de leitura`;
-  link = `${appUrl}#/licao/${semana}/${dia}`;
-  tags = [{ Filosofia: "classical_building", "Neurociência": "brain", Literatura: "books", Espiritualidade: "candle" }[l.disciplina] || "sunrise"];
+  corpo = `${l.subtitulo} · ${l.minutos} min`;
+  rota = `#/licao/${semana}/${dia}`;
 }
+const mensagem = { titulo, corpo, rota, tag: `aurora-${semana}-${dia}` };
 
 if (ensaio) {
-  console.log({ titulo, mensagem, link, tags });
+  console.log(mensagem);
   process.exit(0);
 }
 
-const resp = await fetch(servidor, {
-  method: "POST",
-  headers: { "Content-Type": "application/json" },
-  body: JSON.stringify({ topic: topico, title: titulo, message: mensagem, click: appUrl ? link : undefined, tags, priority: 4 }),
-});
-if (!resp.ok) {
-  console.error(`ntfy respondeu ${resp.status}: ${await resp.text()}`);
+const { VAPID_PRIVATE_KEY, PUSH_SUBSCRIPTION } = process.env;
+if (!VAPID_PRIVATE_KEY || !PUSH_SUBSCRIPTION) {
+  console.error("Defina os secrets VAPID_PRIVATE_KEY e PUSH_SUBSCRIPTION.");
   process.exit(1);
 }
-console.log(`Enviado: ${titulo}`);
+
+webpush.setVapidDetails("https://github.com/guinho0/aurora", curriculo.vapid_publica, VAPID_PRIVATE_KEY);
+try {
+  await webpush.sendNotification(JSON.parse(PUSH_SUBSCRIPTION), JSON.stringify(mensagem), { TTL: 6 * 3600, urgency: "high" });
+  console.log(`Enviado: ${titulo}`);
+} catch (e) {
+  if (e.statusCode === 404 || e.statusCode === 410) {
+    console.error("A inscrição expirou: abra o Aurora no celular, ative as notificações de novo e atualize o secret PUSH_SUBSCRIPTION.");
+  } else {
+    console.error(`Falha no envio (${e.statusCode ?? "?"}): ${e.body || e.message}`);
+  }
+  process.exit(1);
+}

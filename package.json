@@ -1,0 +1,13 @@
+{
+  "name": "aurora",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validar": "node scripts/validar.mjs",
+    "notificar": "node scripts/notificar.mjs",
+    "icones": "node scripts/gerar-icones.mjs"
+  },
+  "dependencies": {
+    "web-push": "3.6.7"
+  }
+}

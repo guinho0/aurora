@@ -44,29 +44,38 @@ function cor(u, v, margem) {
   return FUNDO;
 }
 
-function png(tam, margem) {
+// `badge`: desenho branco sobre fundo transparente (ícone da barra de status do Android).
+function png(tam, margem, badge = false) {
   const AA = 4;
+  const canais = badge ? 4 : 3;
   const linhas = [];
   for (let py = 0; py < tam; py++) {
-    const linha = Buffer.alloc(1 + tam * 3);
+    const linha = Buffer.alloc(1 + tam * canais);
     for (let px = 0; px < tam; px++) {
-      let rr = 0, gg = 0, bb = 0;
+      let rr = 0, gg = 0, bb = 0, cobre = 0;
       for (let sy = 0; sy < AA; sy++)
         for (let sx = 0; sx < AA; sx++) {
-          const [r, g, b] = cor((px + (sx + 0.5) / AA) / tam, (py + (sy + 0.5) / AA) / tam, margem);
-          rr += r; gg += g; bb += b;
+          const c = cor((px + (sx + 0.5) / AA) / tam, (py + (sy + 0.5) / AA) / tam, margem);
+          rr += c[0]; gg += c[1]; bb += c[2];
+          if (c !== FUNDO) cobre++;
         }
       const n = AA * AA;
-      linha[1 + px * 3] = Math.round(rr / n);
-      linha[2 + px * 3] = Math.round(gg / n);
-      linha[3 + px * 3] = Math.round(bb / n);
+      const o = 1 + px * canais;
+      if (badge) {
+        linha.fill(255, o, o + 3);
+        linha[o + 3] = Math.round((cobre / n) * 255);
+      } else {
+        linha[o] = Math.round(rr / n);
+        linha[o + 1] = Math.round(gg / n);
+        linha[o + 2] = Math.round(bb / n);
+      }
     }
     linhas.push(linha);
   }
   const ihdr = Buffer.alloc(13);
   ihdr.writeUInt32BE(tam, 0);
   ihdr.writeUInt32BE(tam, 4);
-  ihdr[8] = 8; ihdr[9] = 2; ihdr[10] = 0; ihdr[11] = 0; ihdr[12] = 0;
+  ihdr[8] = 8; ihdr[9] = badge ? 6 : 2; ihdr[10] = 0; ihdr[11] = 0; ihdr[12] = 0;
   return Buffer.concat([
     Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]),
     chunk("IHDR", ihdr),
@@ -80,4 +89,5 @@ writeFileSync("icons/icon-192.png", png(192, 0));
 writeFileSync("icons/icon-512.png", png(512, 0));
 writeFileSync("icons/maskable-512.png", png(512, 0.1));
 writeFileSync("icons/apple-touch-icon.png", png(180, 0.04));
+writeFileSync("icons/badge-96.png", png(96, -0.08, true));
 console.log("ícones gerados em icons/");

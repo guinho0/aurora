@@ -203,6 +203,11 @@ async function telaHoje() {
 
     <div class="pilha">${principal}</div>
 
+    ${pushSuportado() && Notification.permission === "default" ? `<a class="card destaque secao" href="#/diario" style="display:block">
+      <span class="tag">Notificação</span>
+      <p style="margin:6px 0 0">Quer receber a lição às 07:00? <strong>Ativar no Diário ›</strong></p>
+    </a>` : ""}
+
     ${dados ? `<section class="secao">
       <p class="sobretitulo">Esta semana${modulo ? ` · Módulo ${modulo.numero}: ${esc(modulo.titulo)}` : ""}</p>
       ${faixaSemana(pos.semana, dados, pos.dia)}
@@ -546,6 +551,12 @@ function telaDiario() {
     </div>
 
     <section class="secao card">
+      <p class="sobretitulo">Notificação das 07:00</p>
+      <p class="muted pequeno" id="notif-status">Verificando…</p>
+      <div class="botoes" id="notif-acoes"></div>
+    </section>
+
+    <section class="secao card">
       <p class="sobretitulo">Seus dados</p>
       <p class="muted pequeno">Tudo fica salvo só neste aparelho. Faça um backup de vez em quando, principalmente antes de trocar de celular ou limpar o navegador.</p>
       <div class="botoes">
@@ -559,6 +570,8 @@ function telaDiario() {
     art.classList.toggle("aberta");
     b.textContent = art.classList.contains("aberta") ? "Recolher" : "Ler tudo";
   }));
+
+  painelNotificacoes();
 
   app.querySelector("#exportar").addEventListener("click", () => {
     const blob = new Blob([JSON.stringify({ app: "aurora", versao: 1, exportado: new Date().toISOString(), estado }, null, 2)], { type: "application/json" });
@@ -582,6 +595,82 @@ function telaDiario() {
       toast("Arquivo de backup inválido.");
     }
   });
+}
+
+// ---------- Notificações (Web Push) ----------
+
+const pushSuportado = () => "serviceWorker" in navigator && "PushManager" in window && "Notification" in window;
+
+function chaveVapid(b64) {
+  const pad = "=".repeat((4 - (b64.length % 4)) % 4);
+  const bin = atob((b64 + pad).replace(/-/g, "+").replace(/_/g, "/"));
+  return Uint8Array.from(bin, (c) => c.charCodeAt(0));
+}
+
+async function compartilharTexto(texto, msgCopiado) {
+  try {
+    if (navigator.share) return await navigator.share({ text: texto });
+  } catch (e) {
+    if (e?.name === "AbortError") return;
+  }
+  try { await navigator.clipboard.writeText(texto); toast(msgCopiado); }
+  catch { toast("Não consegui copiar automaticamente."); }
+}
+
+async function painelNotificacoes() {
+  const status = app.querySelector("#notif-status");
+  const acoes = app.querySelector("#notif-acoes");
+  if (!status) return;
+
+  if (!pushSuportado()) {
+    status.textContent = "Este navegador não permite notificações. Abra o Aurora pelo Chrome e instale na tela inicial.";
+    acoes.innerHTML = "";
+    return;
+  }
+  if (Notification.permission === "denied") {
+    status.textContent = "As notificações foram bloqueadas. Libere em Configurações do Android → Apps → Aurora (ou Chrome) → Notificações, e volte aqui.";
+    acoes.innerHTML = "";
+    return;
+  }
+
+  const reg = await Promise.race([navigator.serviceWorker.ready, new Promise((r) => setTimeout(r, 8000))]);
+  if (!reg) {
+    status.textContent = "O app ainda está terminando de instalar. Feche e abra o Aurora de novo, com internet.";
+    acoes.innerHTML = "";
+    return;
+  }
+  const inscricao = await reg.pushManager.getSubscription();
+
+  if (!inscricao) {
+    status.textContent = "Receba a lição do dia no celular, de segunda a sexta, por volta das 07:00.";
+    acoes.innerHTML = `<button class="botao largo" id="ativar">Ativar notificações</button>`;
+    acoes.querySelector("#ativar").addEventListener("click", async () => {
+      if ((await Notification.requestPermission()) !== "granted") return painelNotificacoes();
+      try {
+        await reg.pushManager.subscribe({ userVisibleOnly: true, applicationServerKey: chaveVapid(curriculo.vapid_publica) });
+        toast("Ativado. Agora envie o código de ativação.");
+      } catch {
+        toast("Não foi possível ativar. Tente de novo com internet.");
+      }
+      painelNotificacoes();
+    });
+    return;
+  }
+
+  status.innerHTML = `Ativadas neste aparelho. Para o envio diário funcionar, mande o <strong>código de ativação</strong> ao Claude uma vez (e de novo só se reinstalar o app).`;
+  acoes.innerHTML = `
+    <button class="botao largo" id="codigo">Enviar código de ativação</button>
+    <button class="botao sec largo" id="testar">Testar notificação aqui</button>`;
+  acoes.querySelector("#codigo").addEventListener("click", () =>
+    compartilharTexto(`Código de ativação do Aurora:\n${JSON.stringify(inscricao)}`, "Código copiado. Cole na conversa com o Claude."));
+  acoes.querySelector("#testar").addEventListener("click", () =>
+    reg.showNotification("Aurora", {
+      body: "É assim que a lição vai chegar de manhã.",
+      icon: "icons/icon-192.png",
+      badge: "icons/badge-96.png",
+      tag: "aurora-teste",
+      data: { rota: "#/" },
+    }));
 }
 
 function voltar(href = "#/", rotulo = "Hoje") {
