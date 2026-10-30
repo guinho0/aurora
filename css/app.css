@@ -1,0 +1,264 @@
+:root {
+  --bg: #f6f1e7;
+  --surface: #fffaf1;
+  --surface-2: #efe7d8;
+  --ink: #23201b;
+  --ink-2: #5d564b;
+  --ink-3: #8c8476;
+  --line: #e2d8c6;
+  --accent: #1f2a44;
+  --sun: #c98a1f;
+  --ok: #3f7d4e;
+  --erro: #a5412f;
+
+  --filosofia: #4a5d9c;
+  --neurociencia: #2c7f79;
+  --literatura: #a34646;
+  --espiritualidade: #a87a1c;
+  --escrita: #75569a;
+
+  --serif: "Literata", Georgia, "Times New Roman", serif;
+  --sans: "Inter", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --raio: 14px;
+  --sombra: 0 1px 2px rgb(60 45 20 / .06), 0 4px 16px rgb(60 45 20 / .06);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14161c;
+    --surface: #1c1f27;
+    --surface-2: #252935;
+    --ink: #ece6da;
+    --ink-2: #b6ae9f;
+    --ink-3: #847d71;
+    --line: #2f3340;
+    --accent: #e8b04a;
+    --sun: #e8b04a;
+    --ok: #74b685;
+    --erro: #e0806d;
+
+    --filosofia: #8ea0e0;
+    --neurociencia: #6cc4bc;
+    --literatura: #e08a8a;
+    --espiritualidade: #e3b55a;
+    --escrita: #b99ae0;
+    --sombra: 0 1px 2px rgb(0 0 0 / .3);
+  }
+}
+
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 16px/1.5 var(--sans);
+  -webkit-font-smoothing: antialiased;
+  padding-bottom: calc(72px + env(safe-area-inset-bottom));
+}
+a { color: inherit; }
+button { font: inherit; color: inherit; }
+
+#app {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: calc(20px + env(safe-area-inset-top)) 16px 32px;
+}
+
+/* ---------- Navegação ---------- */
+.nav {
+  position: fixed; inset: auto 0 0 0;
+  display: flex; justify-content: center; gap: 8px;
+  padding: 8px 16px calc(8px + env(safe-area-inset-bottom));
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-top: 1px solid var(--line);
+  z-index: 10;
+}
+.nav a {
+  flex: 1; max-width: 140px;
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 6px 0; border-radius: 10px;
+  text-decoration: none; color: var(--ink-3);
+  font-size: 12px; font-weight: 500;
+}
+.nav svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.nav a.ativo { color: var(--accent); }
+
+/* ---------- Tipografia ---------- */
+.sobretitulo {
+  font-size: 12px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
+  color: var(--ink-3); margin: 0 0 4px;
+}
+h1, h2, h3 { font-family: var(--serif); font-weight: 600; line-height: 1.2; margin: 0; }
+h1 { font-size: 30px; letter-spacing: -.01em; }
+h2 { font-size: 22px; }
+h3 { font-size: 18px; }
+.muted { color: var(--ink-2); }
+.pequeno { font-size: 14px; }
+
+/* ---------- Cartões ---------- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--raio);
+  padding: 18px;
+  box-shadow: var(--sombra);
+}
+.pilha > * + * { margin-top: 16px; }
+.secao { margin-top: 28px; }
+.secao > h2, .secao > .sobretitulo { margin-bottom: 12px; }
+
+.tag {
+  display: inline-flex; align-items: center; gap: 6px;
+  font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+  color: var(--cor, var(--ink-2));
+}
+.tag::before {
+  content: ""; width: 8px; height: 8px; border-radius: 50%; background: currentColor;
+}
+[data-disc="Filosofia"] { --cor: var(--filosofia); }
+[data-disc="Neurociência"] { --cor: var(--neurociencia); }
+[data-disc="Literatura"] { --cor: var(--literatura); }
+[data-disc="Espiritualidade"] { --cor: var(--espiritualidade); }
+[data-disc="Escrita"] { --cor: var(--escrita); }
+
+/* ---------- Hoje ---------- */
+.saudacao { margin-bottom: 20px; }
+.saudacao p { margin: 6px 0 0; }
+
+.destaque {
+  display: block; text-decoration: none;
+  border-left: 4px solid var(--cor, var(--accent));
+}
+.destaque h2 { margin: 8px 0 4px; font-size: 24px; }
+.destaque .meta { display: flex; justify-content: space-between; align-items: center; margin-top: 16px; }
+
+.semana-faixa { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; }
+.dia {
+  display: flex; flex-direction: column; align-items: center; gap: 6px;
+  padding: 10px 4px; border-radius: 12px;
+  background: var(--surface); border: 1px solid var(--line);
+  text-decoration: none; font-size: 12px; color: var(--ink-2);
+}
+.dia .bolinha {
+  width: 28px; height: 28px; border-radius: 50%;
+  display: grid; place-items: center;
+  border: 2px solid var(--cor, var(--line));
+  color: var(--cor); font-weight: 600; font-size: 13px;
+}
+.dia.feito .bolinha { background: var(--cor); color: var(--surface); }
+.dia.hoje { outline: 2px solid var(--accent); outline-offset: -1px; }
+.dia.bloqueado { opacity: .45; pointer-events: none; }
+
+.numeros { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.numero { text-align: center; padding: 14px 8px; }
+.numero strong { display: block; font-family: var(--serif); font-size: 26px; }
+.numero span { font-size: 12px; color: var(--ink-3); }
+
+/* ---------- Lição ---------- */
+.voltar {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 14px; color: var(--ink-2); text-decoration: none; margin-bottom: 16px;
+}
+.cabecalho-licao h1 { margin: 10px 0 6px; }
+.cabecalho-licao .muted { margin: 0; font-family: var(--serif); font-style: italic; }
+
+.leitura { font-family: var(--serif); font-size: 18.5px; line-height: 1.7; margin-top: 24px; }
+.leitura p { margin: 0 0 1em; }
+.leitura h3 { margin: 1.6em 0 .5em; font-size: 20px; }
+
+blockquote.trecho {
+  margin: 28px 0; padding: 4px 0 4px 18px;
+  border-left: 3px solid var(--cor, var(--sun));
+  font-family: var(--serif); font-style: italic; font-size: 19px; line-height: 1.6;
+}
+blockquote.trecho footer { margin-top: 8px; font-family: var(--sans); font-style: normal; font-size: 13px; color: var(--ink-3); }
+
+.conceitos dl { margin: 0; }
+.conceitos dt { font-weight: 600; font-family: var(--serif); }
+.conceitos dd { margin: 2px 0 12px; color: var(--ink-2); font-size: 15px; }
+.conceitos dd:last-child { margin-bottom: 0; }
+
+.quiz-q + .quiz-q { margin-top: 20px; padding-top: 20px; border-top: 1px solid var(--line); }
+.quiz-q p { margin: 0 0 10px; font-weight: 500; }
+.opcao {
+  display: block; width: 100%; text-align: left;
+  padding: 12px 14px; margin-top: 8px;
+  background: var(--surface-2); border: 1px solid transparent; border-radius: 10px;
+  cursor: pointer; font-size: 15px;
+}
+.opcao:disabled { cursor: default; }
+.opcao.certa { border-color: var(--ok); background: color-mix(in srgb, var(--ok) 14%, var(--surface)); }
+.opcao.errada { border-color: var(--erro); background: color-mix(in srgb, var(--erro) 12%, var(--surface)); }
+.explicacao { margin-top: 10px; font-size: 14px; color: var(--ink-2); }
+
+.reflexao ol { margin: 0 0 12px; padding-left: 20px; font-family: var(--serif); font-size: 17px; }
+.reflexao li + li { margin-top: 8px; }
+
+textarea {
+  width: 100%; min-height: 120px; resize: vertical;
+  padding: 12px 14px; border-radius: 10px;
+  border: 1px solid var(--line); background: var(--bg); color: var(--ink);
+  font: 17px/1.6 var(--serif);
+}
+textarea:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+textarea.grande { min-height: 55vh; }
+
+.check {
+  display: flex; gap: 12px; align-items: flex-start; cursor: pointer;
+  padding: 8px 0; font-size: 15px;
+}
+.check input { width: 20px; height: 20px; margin: 1px 0 0; accent-color: var(--accent); flex: none; }
+
+.ponte { font-size: 15px; color: var(--ink-2); border-left: 3px solid var(--line); padding-left: 14px; }
+
+.botao {
+  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
+  min-height: 48px; padding: 12px 20px; border-radius: 12px; border: none;
+  background: var(--accent); color: var(--bg); font-weight: 600; font-size: 16px;
+  cursor: pointer; text-decoration: none;
+}
+.botao.largo { width: 100%; }
+.botao.sec { background: var(--surface-2); color: var(--ink); }
+.botao:disabled { opacity: .5; cursor: default; }
+.botoes { display: flex; flex-direction: column; gap: 10px; }
+
+.concluida-selo {
+  display: flex; align-items: center; justify-content: center; gap: 8px;
+  color: var(--ok); font-weight: 600; padding: 12px;
+}
+
+/* ---------- Sexta ---------- */
+.contador { display: flex; justify-content: space-between; font-size: 13px; color: var(--ink-3); margin-top: 6px; }
+.contador .ok { color: var(--ok); font-weight: 600; }
+.guia li { margin-bottom: 8px; }
+
+/* ---------- Trilha ---------- */
+.modulo h3 { margin: 4px 0 6px; font-size: 20px; }
+.modulo .barra { height: 6px; border-radius: 3px; background: var(--surface-2); overflow: hidden; margin-top: 12px; }
+.modulo .barra i { display: block; height: 100%; background: var(--sun); }
+.semana-lista { list-style: none; margin: 14px 0 0; padding: 0; }
+.semana-lista li { border-top: 1px solid var(--line); }
+.semana-lista a, .semana-lista .sem-link {
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  padding: 12px 0; text-decoration: none; font-size: 15px;
+}
+.semana-lista small { display: block; color: var(--ink-3); font-size: 13px; margin-top: 2px; }
+.semana-lista .status { font-size: 13px; color: var(--ink-3); white-space: nowrap; }
+.modulo.futuro { opacity: .65; }
+
+/* ---------- Diário ---------- */
+.entrada h3 { margin: 4px 0 8px; }
+.entrada .texto { font-family: var(--serif); white-space: pre-wrap; font-size: 16px; line-height: 1.65; max-height: 9.9em; overflow: hidden; position: relative; }
+.entrada.aberta .texto { max-height: none; }
+.vazio { text-align: center; padding: 32px 16px; color: var(--ink-3); }
+
+.toast {
+  position: fixed; left: 50%; bottom: calc(88px + env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  background: var(--ink); color: var(--bg);
+  padding: 10px 16px; border-radius: 10px; font-size: 14px;
+  z-index: 20; box-shadow: var(--sombra);
+}

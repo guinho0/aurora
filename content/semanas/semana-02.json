@@ -1,0 +1,267 @@
+{
+  "semana": 2,
+  "modulo": 1,
+  "tema": "Hábitos: nos tornamos o que repetimos",
+  "introducao": "Na semana passada você aprendeu a se examinar. Agora a pergunta muda de “quem eu sou?” para “quem eu estou me tornando?” — porque, de Aristóteles aos neurocientistas, a resposta parece a mesma: somos esculpidos, dia após dia, por aquilo que repetimos sem perceber.",
+  "licoes": [
+    {
+      "dia": "seg",
+      "disciplina": "Filosofia",
+      "titulo": "Ninguém nasce corajoso",
+      "subtitulo": "Aristóteles, Ética a Nicômaco (livro II) — virtude, hábito e o justo meio",
+      "minutos": 7,
+      "texto": [
+        "Pense em alguém que você admira pela paciência. Agora imagine essa pessoa num dia ruim: trânsito parado, criança chorando, chefe cobrando. Ela respira e responde com calma. Isso foi uma decisão heroica tomada naquele segundo? Aristóteles diria que não. Aquela calma foi construída muito antes — em mil pequenas escolhas que ninguém viu.",
+        "Sócrates, nosso companheiro da semana passada, achava que bastava **saber** o que é o bem para praticá-lo. Aristóteles, neto intelectual dele (foi aluno de Platão, que foi aluno de Sócrates), discorda com um realismo quase brutal: todo mundo conhece alguém que sabe exatamente o que deveria fazer e não faz. Saber não basta. O caráter se forma de outro jeito.",
+        "## A virtude é um hábito",
+        "No livro II da *Ética a Nicômaco*, Aristóteles faz uma observação simples e revolucionária: as virtudes do caráter não nascem conosco nem contra nós. Temos a capacidade de adquiri-las, e elas se completam pelo **hábito**. Ele até brinca com as palavras gregas: *êthos* (caráter) vem de *ethos* (costume). Uma pedra, diz ele, nunca vai se acostumar a cair para cima, nem que você a jogue dez mil vezes. Mas nós, sim, podemos ser treinados. Aprendemos a tocar cítara tocando cítara; da mesma forma, **tornamo-nos justos praticando atos justos**.",
+        "O nome técnico disso é *hexis*: uma disposição estável, um “jeito de estar” que se instalou em você. Não é um sentimento passageiro nem uma regra decorada. É como o músculo de quem treina: ninguém vê o treino, todos veem o resultado. E vale o contrário: quem pratica pequenas covardias diárias está, sem perceber, treinando a covardia. Não existe repetição neutra.",
+        "Mas praticar o quê? Aristóteles propõe que a virtude é um **meio-termo entre dois vícios**: um por excesso, outro por falta. A coragem fica entre a covardia (medo demais) e a temeridade (medo de menos). A generosidade, entre a avareza e o desperdício. Atenção: não é “ficar em cima do muro” nem a média matemática. É o ponto certo *relativo a você* e à situação. O exemplo dele é ótimo: a porção de comida ideal para o lutador Mílon não é a mesma de um iniciante. Acertar o meio exige sensibilidade, prática — e por isso ele diz que ser bom é difícil: errar o alvo é fácil, acertar no centro, não.",
+        "Para onde tudo isso leva? Para a *eudaimonia*, que costumamos traduzir como “felicidade”, mas que se parece mais com **florescimento**: uma vida bem vivida, plena, em que você realiza o melhor do que é capaz. Não é uma sensação que vem e vai, é uma vida inteira. Como Aristóteles diz no livro I, uma andorinha só não faz verão — e um dia bom só não faz uma pessoa feliz.",
+        "Curiosidade honesta: a frase “Somos o que repetidamente fazemos; a excelência, portanto, não é um ato, mas um hábito” circula por aí como sendo de Aristóteles. Não é. É um resumo do historiador Will Durant, de 1926. Bom resumo, mas a frase original é mais radical: ele diz que os hábitos que formamos desde jovens não fazem pouca diferença — fazem **toda** a diferença. Então a pergunta de hoje não é “que tipo de pessoa eu sou?”. É: **o que eu fiz hoje, até agora, está me treinando para ser quem?**"
+      ],
+      "trecho": {
+        "texto": "Tornamo-nos justos praticando atos justos, moderados praticando atos moderados, corajosos praticando atos corajosos.",
+        "fonte": "Aristóteles, Ética a Nicômaco, livro II, cap. 1 (c. 350 a.C.), tradução livre"
+      },
+      "conceitos": [
+        { "termo": "Hexis", "definicao": "Disposição estável do caráter, adquirida pela repetição, que nos inclina a agir de certo modo quase naturalmente." },
+        { "termo": "Justo meio (mesotes)", "definicao": "A virtude como o ponto certo entre um vício por excesso e outro por falta, ajustado à pessoa e à situação." },
+        { "termo": "Eudaimonia", "definicao": "O florescimento humano: uma vida inteira bem vivida segundo a virtude, não um estado de humor passageiro." }
+      ],
+      "reflexao": [
+        "Que virtude você gostaria de ter, mas nunca pratica de propósito — esperando que ela simplesmente apareça um dia?",
+        "Em que área da sua vida você está treinando, sem querer, o vício oposto (pequenas covardias, pequenas impaciências, pequenas desonestidades)?",
+        "Onde você costuma errar o meio: pelo excesso ou pela falta? E quem ao seu redor perceberia isso antes de você?"
+      ],
+      "desafio": {
+        "titulo": "Um ato de treino",
+        "descricao": "Escolha uma virtude (paciência, coragem, generosidade…) e pratique hoje UM ato deliberado dela, pequeno e concreto — como dizer uma verdade desconfortável com gentileza. À noite, anote se acertou o meio ou escorregou para o excesso ou para a falta."
+      },
+      "quiz": [
+        {
+          "pergunta": "Segundo Aristóteles, como alguém se torna virtuoso?",
+          "opcoes": [
+            "Nascendo com boa índole",
+            "Compreendendo intelectualmente o que é o bem",
+            "Praticando repetidamente atos virtuosos até que se tornem disposição estável",
+            "Seguindo rigorosamente as leis da cidade"
+          ],
+          "correta": 2,
+          "explicacao": "Para Aristóteles, as virtudes do caráter se formam pelo hábito: tornamo-nos justos praticando atos justos. Saber o que é o bem, como pensava Sócrates, não basta."
+        },
+        {
+          "pergunta": "Por que o “justo meio” não é simplesmente a média entre dois extremos?",
+          "opcoes": [
+            "Porque o meio-termo correto depende da pessoa e da situação",
+            "Porque Aristóteles defendia sempre o excesso moderado",
+            "Porque a virtude é igual para todos, independentemente do contexto",
+            "Porque o justo meio é sempre mais próximo da falta"
+          ],
+          "correta": 0,
+          "explicacao": "O meio é “relativo a nós”: a porção certa para o lutador Mílon não é a de um iniciante. Achar o meio exige julgamento prático, não cálculo."
+        }
+      ],
+      "ponte": "Aristóteles intuiu, há 2.300 anos, que o caráter se forma pela repetição. Amanhã a neurociência vai mostrar o que acontece, literalmente, dentro do cérebro quando uma ação se repete até virar hábito."
+    },
+    {
+      "dia": "ter",
+      "disciplina": "Neurociência",
+      "titulo": "O piloto automático que dirige sua vida",
+      "subtitulo": "Gânglios da base, chunking (Ann Graybiel) e dopamina (Wolfram Schultz)",
+      "minutos": 8,
+      "texto": [
+        "Você já chegou em casa sem lembrar do caminho? Ou pegou o celular, desbloqueou e, três segundos depois, se perguntou: “O que eu vim fazer aqui?”. Não foi distração. Foi um hábito funcionando exatamente como deveria. A pergunta é: quem decidiu isso?",
+        "Na semana passada você viu que o cérebro é plástico: muda com o uso. Hoje vamos ver o que acontece quando o uso se repete tantas vezes que o cérebro decide **parar de pensar** sobre ele.",
+        "No fundo do cérebro há um conjunto de estruturas chamado **gânglios da base**, e uma parte deles, o estriado, é central na formação de hábitos. Nos anos 1990, a neurocientista Ann Graybiel, do MIT, registrou a atividade de neurônios do estriado em ratos que aprendiam a percorrer um labirinto em T para achar chocolate (Jog et al., 1999, *Science*). No início, os neurônios disparavam durante todo o percurso: o animal “prestava atenção” a cada passo. Com o treino, a atividade se concentrava no **começo** e no **fim** da corrida, e o meio ficava quase silencioso. O cérebro havia empacotado a sequência inteira num bloco só. Graybiel chama isso de ***chunking***: transformar muitos passos num único “pacote” que dispara de uma vez.",
+        "É o que acontece quando você aprende a dirigir. No início, embreagem, seta, retrovisor e marcha são decisões separadas e cansativas. Depois, viram um gesto só, e sua mente fica livre para conversar. Isso é ótimo. Estudos de diário de Wendy Wood e colegas (2002) sugerem que algo como 40% do que fazemos num dia são ações repetidas no mesmo contexto, feitas enquanto pensamos em outra coisa. O problema é que o pacote dispara tanto para escovar os dentes quanto para abrir uma rede social ao primeiro tédio.",
+        "Um modelo popularizado por Charles Duhigg resume o hábito em três partes: uma **deixa** (contexto, horário, emoção), uma **rotina** (o comportamento) e uma **recompensa**. É uma simplificação, mas útil. E a recompensa tem uma química curiosa. Wolfram Schultz registrou neurônios de dopamina em macacos (Schultz, Dayan & Montague, 1997, *Science*). Quando o suco chegava de surpresa, esses neurônios disparavam. Depois que o macaco aprendia que uma luz anunciava o suco, o disparo migrava para a **luz**, e o suco esperado já não causava nada de especial. E se a luz acendia e o suco não vinha, a atividade caía abaixo do normal. A dopamina, portanto, não é simplesmente “a molécula do prazer”: ela sinaliza o **erro de previsão** — a diferença entre o que você esperava e o que recebeu. Por isso a notificação (a deixa) mexe tanto com você, às vezes mais do que a mensagem em si.",
+        "## Por que é tão difícil mudar — e o que ajuda",
+        "Um hábito antigo não é apagado; ele fica guardado e compete com o novo. Sob estresse, o cérebro tende a voltar ao automático (Schwabe & Wolf, 2009). E o mito dos “21 dias”? Não tem base científica. No estudo de Phillippa Lally e colegas (2010), com 96 voluntários, o tempo até um novo comportamento ficar automático variou de 18 a 254 dias, com mediana de 66 — e falhar um dia isolado não arruinou o processo. O que funciona melhor que força de vontade: **mudar o ambiente** (tirar o celular do quarto), tornar o hábito bom mais fácil e o ruim mais trabalhoso, e usar **intenções de implementação** do tipo “se X acontecer, então farei Y” (Gollwitzer, 1999), que em diversos estudos aumentaram a chance de cumprir metas.",
+        "Então, uma pergunta incômoda: se boa parte do seu dia roda em piloto automático, **quem programou o piloto?** Você, de propósito — ou o ambiente, os aplicativos e o acaso?"
+      ],
+      "trecho": {
+        "texto": "Toda a nossa vida, na medida em que tem forma definida, não passa de uma massa de hábitos.",
+        "fonte": "William James, Princípios de Psicologia, cap. “Habit” (1890), tradução livre"
+      },
+      "conceitos": [
+        { "termo": "Gânglios da base", "definicao": "Estruturas profundas do cérebro, incluindo o estriado, envolvidas na seleção de ações e na consolidação de hábitos." },
+        { "termo": "Chunking", "definicao": "Processo pelo qual o cérebro agrupa uma sequência de ações num único bloco que é disparado como unidade." },
+        { "termo": "Erro de predição de recompensa", "definicao": "Sinal dopaminérgico que codifica a diferença entre a recompensa esperada e a recebida, ajudando o cérebro a aprender." },
+        { "termo": "Intenção de implementação", "definicao": "Plano no formato “se X, então Y”, que liga uma ação desejada a uma deixa concreta do ambiente." }
+      ],
+      "reflexao": [
+        "Qual é a primeira coisa que você faz no automático ao acordar — e foi você quem escolheu esse hábito?",
+        "Que deixa (lugar, emoção, horário) dispara o hábito de que você menos se orgulha?",
+        "Se alguém observasse apenas suas rotinas automáticas por uma semana, o que concluiria sobre aquilo que você valoriza?"
+      ],
+      "desafio": {
+        "titulo": "Reprograme uma deixa",
+        "descricao": "Escolha um hábito que quer mudar e escreva uma frase “se… então…” bem concreta (ex.: “Se eu sentar no sofá depois do jantar, então deixo o celular carregando na cozinha”). Hoje, mude também uma coisa no ambiente para deixar o hábito ruim um pouco mais trabalhoso."
+      },
+      "quiz": [
+        {
+          "pergunta": "No experimento de Schultz, o que acontecia com os neurônios de dopamina depois que o macaco aprendia que uma luz anunciava o suco?",
+          "opcoes": [
+            "Passavam a disparar mais forte quando o suco chegava",
+            "Deixavam de responder a qualquer estímulo",
+            "Disparavam apenas quando o macaco bebia muito suco",
+            "Passavam a disparar com a luz, e a atividade caía se o suco esperado não viesse"
+          ],
+          "correta": 3,
+          "explicacao": "A dopamina sinaliza erro de previsão: depois do aprendizado, ela responde à deixa que prevê a recompensa, e cai abaixo do normal quando a recompensa esperada falha."
+        },
+        {
+          "pergunta": "O que o estudo de Lally e colegas (2010) mostrou sobre a formação de hábitos?",
+          "opcoes": [
+            "Que 21 dias bastam para qualquer hábito",
+            "Que o tempo variou muito entre pessoas e comportamentos, com mediana de cerca de 66 dias",
+            "Que falhar um único dia faz o processo recomeçar do zero",
+            "Que hábitos simples nunca se tornam automáticos"
+          ],
+          "correta": 1,
+          "explicacao": "O tempo até a automaticidade foi de 18 a 254 dias, com mediana de 66, e falhas isoladas não comprometeram o processo. O “21 dias” é um mito."
+        }
+      ],
+      "ponte": "A dopamina nos faz correr atrás da próxima recompensa — e se acostumar rapidamente com a anterior. Amanhã, Tolstói vai mostrar até onde esse mecanismo pode levar um homem que nunca acha que tem terra suficiente."
+    },
+    {
+      "dia": "qua",
+      "disciplina": "Literatura",
+      "titulo": "Sete palmos: a medida exata",
+      "subtitulo": "Liev Tolstói, “De quanta terra precisa um homem?” (1886)",
+      "minutos": 8,
+      "texto": [
+        "Imagine uma proposta irrecusável: tudo o que você conseguir percorrer a pé, do nascer ao pôr do sol, será seu. Só há uma condição: voltar ao ponto de partida antes de o sol sumir. Quanto você andaria? É exatamente essa a pergunta que Tolstói faz ao seu personagem — e a nós.",
+        "Pahóm é um camponês russo. A cunhada da cidade visita a família e as duas irmãs discutem: qual vida é melhor, a urbana, cheia de conforto, ou a do campo, simples e segura? Pahóm, ouvindo do canto, pensa alto: se ele tivesse terra suficiente, não teria medo nem do próprio Diabo. O Diabo, escondido atrás do fogão, ouve. E aceita o desafio.",
+        "A partir daí, a vida de Pahóm melhora. Ele compra um pedaço de terra e, por um tempo, fica feliz. Mas logo começa a brigar com os vizinhos por cercas e animais. Ouve falar de terras melhores no Volga, muda-se, prospera, tem mais do que jamais teve. E então percebe que ainda poderia ter mais. Um comerciante lhe conta sobre os bashkires, um povo das estepes que vende terra quase de graça: por mil rublos, *tanta terra quanto você conseguir contornar a pé em um dia*.",
+        "Pahóm parte. Na véspera, sonha com o chefe bashkir rindo dele; o rosto vira o do comerciante, depois o do camponês do Volga, depois o do Diabo — e diante dele há um homem morto, descalço, de camisa: o próprio Pahóm. Ele acorda e ignora o sonho. Ao amanhecer, começa a andar. A terra é boa, e cada trecho parece melhor que o anterior: “só mais um pouco”. Quando percebe, está longe demais. O sol desce. Ele corre, joga fora as botas, o casaco, o cantil; o coração martela. Chega ao topo da colina no exato momento em que o sol se põe. O chefe exclama que ele conquistou muita terra. Pahóm cai morto, com sangue na boca. Seu criado pega a pá e cava uma cova do tamanho dele. A resposta à pergunta do título está ali.",
+        "## O que o conto revela",
+        "Tolstói escreveu essa parábola depois de sua grande crise espiritual, quando passou a desconfiar de tudo o que ele mesmo havia conquistado: fama, terras, riqueza. O conto não condena a terra nem o trabalho. Condena um **mecanismo**: o desejo que se renova a cada conquista. Repare que Pahóm nunca é infeliz por falta de terra; ele fica infeliz porque cada ganho vira, rapidamente, o novo normal. Psicólogos chamam isso de **adaptação hedônica** (a ideia de uma “esteira hedônica” foi proposta por Brickman e Campbell em 1971): nos acostumamos ao que conquistamos e voltamos a desejar mais. É a dopamina de ontem em forma de narrativa: a recompensa esperada já não emociona; só o “a mais” parece valer.",
+        "E perceba o detalhe mais fino: o Diabo não força Pahóm a nada. Só oferece oportunidades. Quem anda além da conta é o próprio Pahóm, um passo de cada vez, cada um razoável. Ninguém se destrói num salto. Destrói-se no **hábito** de dizer “só mais um pouco”.",
+        "A pergunta não é se você tem ambição. É: **qual é a sua colina?** Você sabe, hoje, a hora de voltar — ou também está calculando que dá para andar só mais um pouco antes de o sol se pôr?"
+      ],
+      "trecho": {
+        "texto": "O criado pegou a pá, cavou uma cova do tamanho exato para Pahóm caber e o enterrou nela. Dois metros, da cabeça aos pés, era tudo de que ele precisava.",
+        "fonte": "Liev Tolstói, “De quanta terra precisa um homem?” (1886), tradução livre a partir da versão inglesa de Louise e Aylmer Maude"
+      },
+      "conceitos": [
+        { "termo": "Parábola", "definicao": "Narrativa curta e simbólica que transmite uma lição moral ou espiritual por meio de uma história concreta." },
+        { "termo": "Adaptação hedônica", "definicao": "Tendência humana de se acostumar rapidamente às conquistas e voltar ao nível anterior de satisfação, passando a desejar mais." },
+        { "termo": "Desejo insaciável", "definicao": "Desejo que não busca um objeto, mas o próprio “mais”, e por isso nunca encontra um ponto de chegada." }
+      ],
+      "reflexao": [
+        "Qual conquista sua já foi um sonho e hoje virou apenas “o normal”?",
+        "Em que área da sua vida você está dizendo “só mais um pouco” — e o que esse “pouco” está custando?",
+        "Se hoje fosse o pôr do sol, o que você teria percorrido que realmente importa?"
+      ],
+      "desafio": {
+        "titulo": "Defina o seu “basta”",
+        "descricao": "Escolha uma área em que você sempre quer mais (dinheiro, trabalho, reconhecimento, compras, tela) e escreva, num papel, uma frase concreta do que seria “suficiente”. Hoje, quando chegar nesse limite, pare de propósito — e note o que sente."
+      },
+      "quiz": [
+        {
+          "pergunta": "Qual é o papel do Diabo no conto de Tolstói?",
+          "opcoes": [
+            "Ele engana Pahóm com um contrato falso",
+            "Ele obriga Pahóm a aceitar a proposta dos bashkires",
+            "Ele apenas oferece oportunidades; quem escolhe ir além da conta é o próprio Pahóm",
+            "Ele castiga Pahóm por ter sido avarento com os vizinhos"
+          ],
+          "correta": 2,
+          "explicacao": "O Diabo só cria ocasiões. A ruína de Pahóm vem de suas próprias escolhas, cada uma aparentemente razoável — o que torna o conto tão perturbador."
+        },
+        {
+          "pergunta": "Que ideia psicológica moderna ajuda a entender a insatisfação de Pahóm?",
+          "opcoes": [
+            "A adaptação hedônica: cada conquista vira o novo normal e o desejo se renova",
+            "A dissonância cognitiva: ele mente para si mesmo sobre a terra",
+            "O efeito placebo: a terra não tinha valor real",
+            "O viés de confirmação: ele só ouve quem concorda com ele"
+          ],
+          "correta": 0,
+          "explicacao": "Pahóm não sofre por falta, mas porque se acostuma a cada ganho e passa a desejar mais — exatamente o que descreve a adaptação hedônica."
+        }
+      ],
+      "ponte": "A corrida de Pahóm é exatamente o que o Eclesiastes chama de “correr atrás do vento”. Amanhã, um sábio antigo que também tentou ter tudo vai contar o que encontrou no fim."
+    },
+    {
+      "dia": "qui",
+      "disciplina": "Espiritualidade",
+      "titulo": "Tudo é sopro — e por isso é precioso",
+      "subtitulo": "Eclesiastes (Qohélet): hebel, correr atrás do vento e o convite ao simples",
+      "minutos": 7,
+      "texto": [
+        "Expire numa manhã fria. Por um instante, seu hálito aparece no ar, uma pequena nuvem branca. Um segundo depois, sumiu. Agora imagine alguém dizendo que **tudo** — sua carreira, seu patrimônio, sua reputação, seus projetos — é exatamente assim. Deprimente? Talvez. Ou talvez libertador.",
+        "## Um livro estranho no meio da Bíblia",
+        "O Eclesiastes é um dos livros mais desconcertantes da Bíblia hebraica. O autor se apresenta como *Qohélet*, palavra que significa algo como “aquele que reúne a assembleia” (daí o grego *Ekklesiastes* e o nosso “Pregador”). A tradição o associou ao rei Salomão, mas muitos estudiosos datam o texto de séculos depois. Seja quem for, é alguém que viveu muito, teve muito e pensou muito. E abre o livro assim: “Vaidade das vaidades, tudo é vaidade.”",
+        "A palavra hebraica traduzida por “vaidade” é ***hebel***, e ela aparece dezenas de vezes no livro. Seu sentido literal é **sopro, vapor, névoa**. Não é “vaidade” no sentido de se olhar no espelho; é algo que não se pode agarrar, que escorre entre os dedos. Curiosamente, é o mesmo som do nome de Abel (*Hével*), o filho de Adão cuja vida foi curta como um sopro. Quando Qohélet diz que tudo é *hebel*, não está dizendo que nada importa. Está dizendo que nada **dura** nem pode ser possuído de verdade.",
+        "O livro narra um experimento que lembra muito Pahóm, de ontem. Qohélet construiu casas, plantou vinhas, fez jardins, juntou prata e ouro, teve cantores e prazeres. Não negou a si mesmo nada que os olhos desejassem. Depois olhou para tudo aquilo e concluiu: era *hebel*, um **correr atrás do vento**. Tente pegar o vento com as mãos: você corre, cansa, e as mãos voltam vazias. Ele também percebe o ciclo sem fim: “o olho não se farta de ver”; o sol nasce e se põe; “nada há de novo debaixo do sol”.",
+        "Se o livro parasse aí, seria só um lamento. Mas, de forma surpreendente, Qohélet volta várias vezes a um conselho muito concreto: **come teu pão com alegria, bebe teu vinho de bom coração**, aproveita a vida com quem você ama, faz bem o trabalho que está nas tuas mãos. Ele não recomenda fugir do mundo nem acumular mais. Recomenda **estar presente** naquilo que é simples. Exatamente porque tudo é sopro, cada refeição, conversa e manhã é preciosa — e não volta.",
+        "Para quem crê, Qohélet aponta que só Deus é permanente, e que o ser humano deve viver com reverência diante do mistério. Para quem não crê, o livro funciona como uma das reflexões mais honestas já escritas sobre a finitude. Nos dois casos, o efeito é o mesmo: ele desarma nossa ilusão de controle e nos devolve ao presente.",
+        "Ligue isso ao resto da semana: hábitos que buscam o “mais” são corridas atrás do vento. Hábitos que nos ensinam a saborear — atenção, gratidão, presença — talvez sejam os poucos que não se desfazem como névoa. Então: **o que você está tentando agarrar que é, no fundo, apenas sopro?**"
+      ],
+      "trecho": {
+        "texto": "Vai, come o teu pão com alegria e bebe o teu vinho de coração contente.",
+        "fonte": "Eclesiastes 9:7, tradução livre (em Almeida: “Vai, pois, come com alegria o teu pão…”)"
+      },
+      "conceitos": [
+        { "termo": "Hebel", "definicao": "Palavra hebraica para sopro, vapor ou névoa; em Eclesiastes, designa o caráter passageiro e inapreensível de tudo." },
+        { "termo": "Qohélet", "definicao": "Nome com que o autor do Eclesiastes se apresenta, algo como “aquele que reúne a assembleia” ou “o Pregador”." },
+        { "termo": "Correr atrás do vento", "definicao": "Imagem do esforço de agarrar o que não pode ser possuído, que cansa e deixa as mãos vazias." }
+      ],
+      "reflexao": [
+        "O que você persegue hoje que, daqui a dez anos, provavelmente parecerá apenas sopro?",
+        "Quando foi a última vez que você comeu uma refeição sem pressa, sem tela, apenas saboreando?",
+        "Você sente a finitude da vida como uma ameaça ou como um convite? O que isso diz sobre como você vive?"
+      ],
+      "desafio": {
+        "titulo": "Uma refeição de Qohélet",
+        "descricao": "Faça hoje uma refeição (ou só o café) sem celular, sem TV e sem pressa. Preste atenção no sabor, no cheiro e em quem está com você. Ao terminar, diga mentalmente ou em voz alta uma coisa pela qual você é grato."
+      },
+      "quiz": [
+        {
+          "pergunta": "O que significa literalmente a palavra hebraica hebel, traduzida como “vaidade”?",
+          "opcoes": [
+            "Orgulho excessivo da própria aparência",
+            "Pecado contra Deus",
+            "Sopro, vapor ou névoa: algo passageiro e impossível de agarrar",
+            "Riqueza acumulada injustamente"
+          ],
+          "correta": 2,
+          "explicacao": "Hebel é sopro ou névoa. A “vaidade” de Eclesiastes não é narcisismo, mas a transitoriedade de tudo o que tentamos possuir."
+        },
+        {
+          "pergunta": "Diante da conclusão de que tudo é hebel, o que Qohélet recomenda?",
+          "opcoes": [
+            "Abandonar o trabalho e viver isolado",
+            "Desfrutar com alegria as coisas simples e fazer bem o que está nas mãos",
+            "Acumular o máximo possível enquanto há tempo",
+            "Desistir de buscar qualquer sentido"
+          ],
+          "correta": 1,
+          "explicacao": "O livro repete o convite a comer, beber e trabalhar com alegria: a transitoriedade não leva ao desespero, mas à presença no simples."
+        }
+      ],
+      "ponte": "Pahóm, ontem, morreu correndo atrás do vento; Qohélet propõe parar e saborear. E Aristóteles lembraria: até saborear é algo que se aprende repetindo."
+    }
+  ],
+  "sexta": {
+    "titulo": "Que hábito está me construindo — e para onde?",
+    "proposta": "Nesta semana você viu a mesma verdade por quatro janelas: Aristóteles mostrou que o caráter se forma pela repetição; a neurociência mostrou como o cérebro empacota repetições em hábitos e como a dopamina nos faz correr atrás do “mais”; Tolstói mostrou até onde essa corrida pode levar; e o Eclesiastes lembrou que quase tudo o que perseguimos é sopro. Agora escreva sobre você. Escolha UM hábito concreto da sua vida (bom ou ruim) e examine-o com essas quatro lentes: o que ele está treinando em você, como ele funciona no automático, para onde ele leva se continuar por dez anos e se aquilo que ele persegue é sopro ou algo que vale a pena. Escrever obriga a pensar devagar — e é pensando devagar que a gente reprograma o que faz rápido.",
+    "perguntas_guia": [
+      "Qual hábito você escolheu, e que virtude ou vício (no sentido de Aristóteles) ele está treinando em você, mesmo sem querer?",
+      "Como esse hábito funciona no seu dia: qual é a deixa, qual é a rotina e qual é a recompensa que seu cérebro espera?",
+      "Existe nele algo de Pahóm — um “só mais um pouco” que nunca se sacia? Como seria o seu “basta”?",
+      "À luz do Eclesiastes, o que esse hábito persegue é sopro ou algo duradouro? Que pequena mudança concreta (um “se… então…”) você vai testar na próxima semana?"
+    ],
+    "palavras_minimas": 250,
+    "criterios": [
+      "Escolhi um hábito concreto e real da minha vida, não uma ideia genérica.",
+      "Usei corretamente pelo menos três das quatro lições da semana (hexis/justo meio, loop do hábito/dopamina, Pahóm, hebel).",
+      "Fui honesto sobre o que esse hábito revela de mim, inclusive o que é desconfortável.",
+      "Terminei com uma ação prática e verificável para os próximos dias.",
+      "O texto tem começo, meio e fim, e alguém que não leu as lições conseguiria entendê-lo."
+    ]
+  }
+}

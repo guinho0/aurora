@@ -1,0 +1,306 @@
+{
+  "semana": 3,
+  "modulo": 1,
+  "tema": "Atenção e memória: onde está sua mente?",
+  "introducao": "Nas últimas semanas você olhou para dentro: Sócrates pediu que você se examinasse, Aristóteles mostrou que você é feito dos seus hábitos. Agora a pergunta fica mais concreta e mais incômoda: para onde vai a sua atenção, minuto a minuto? Esta semana atravessa uma caverna, um cérebro que divaga, um homem que não conseguia esquecer e uma mulher que chamou a atenção de oração.",
+  "licoes": [
+    {
+      "dia": "seg",
+      "disciplina": "Filosofia",
+      "titulo": "Você está assistindo às sombras?",
+      "subtitulo": "Platão — a Alegoria da Caverna (República, livro VII)",
+      "minutos": 8,
+      "texto": [
+        "Imagine acordar, pegar o celular antes mesmo de abrir a janela e, vinte minutos depois, perceber que já viu a vida de cinquenta pessoas, três tragédias, duas brigas políticas e um vídeo de gato. Tudo isso numa tela iluminada, enquanto o dia real, lá fora, nem começou. Há 2.400 anos, Platão descreveu uma cena estranhamente parecida.",
+        "## A cena",
+        "No livro VII da *República*, Sócrates pede que imaginemos pessoas acorrentadas desde a infância no fundo de uma caverna, viradas para a parede. Atrás delas arde uma fogueira, e entre o fogo e os prisioneiros passam pessoas carregando objetos. Os prisioneiros só veem as **sombras** projetadas na parede e ouvem ecos. Para eles, aquilo não é uma imagem da realidade: aquilo **é** a realidade. Eles até competem para ver quem adivinha melhor qual sombra vem a seguir — e premiam os mais espertos nesse jogo.",
+        "Agora alguém é solto. Ao se virar para o fogo, os olhos doem; ele preferiria voltar às sombras, que eram confortáveis. Arrastado para fora, à força, pela subida íngreme, ele fica ofuscado pelo sol. Só aos poucos consegue ver reflexos na água, depois as coisas, depois o céu noturno e, por fim, o próprio sol — que, para Platão, simboliza o **Bem**, a fonte que torna tudo visível e compreensível. A **subida** não é um passeio: é dolorosa, lenta, e exige que ele desconfie do que sempre achou óbvio.",
+        "E então vem a parte que quase todo mundo esquece: **o retorno**. O liberto desce de volta para contar aos outros. Mas, vindo da luz, ele enxerga mal no escuro, se sai pior no jogo das sombras e parece ridículo. Platão sugere que, se pudessem, os prisioneiros matariam quem tentasse libertá-los — uma referência nada sutil à condenação de Sócrates, que você conheceu na semana 1.",
+        "## Por que isso fala de atenção",
+        "A caverna não é sobre ignorância de fatos. É sobre **para onde os olhos estão voltados**. Os prisioneiros não são burros: são habilidosos, até competitivos — só que no jogo errado. Pense no feed: ele também premia quem acompanha as sombras mais rápido, quem sabe o assunto do dia, quem reage primeiro. E, como a fogueira de Platão, há alguém atrás de nós decidindo o que passa diante da parede. A pergunta não é se você é inteligente; é: *sua inteligência está a serviço de quê?*",
+        "Platão diz algo precioso: a educação não é colocar visão em olhos cegos, mas **voltar a alma inteira** na direção certa. O problema não é falta de capacidade, é orientação. E virar-se dói, porque as sombras são familiares e a luz, no começo, cega. Você já sentiu isso: os primeiros minutos sem o celular, num livro difícil ou em silêncio, causam um desconforto quase físico. Isso não é sinal de que você está fazendo errado. É a subida.",
+        "Lembre também do retorno: quem se liberta não foge do mundo, volta para ele — com outros olhos. Não se trata de jogar o celular fora e virar eremita, mas de saber a diferença entre sombra e coisa. Então, hoje cedo: o que você já viu na parede antes de ver o dia?"
+      ],
+      "trecho": {
+        "texto": "A educação não é o que alguns proclamam: pôr conhecimento numa alma que não o tem, como quem pusesse visão em olhos cegos. [...] É a arte de fazer a alma inteira se voltar, do que vem a ser para o que é.",
+        "fonte": "Platão, República, livro VII, 518b-d (c. 375 a.C.), tradução livre e condensada"
+      },
+      "conceitos": [
+        {
+          "termo": "Alegoria da Caverna",
+          "definicao": "Imagem de Platão em que prisioneiros tomam sombras por realidade, usada para falar da educação como libertação e conversão do olhar."
+        },
+        {
+          "termo": "Conversão (periagogé)",
+          "definicao": "Para Platão, educar é 'girar' a alma inteira em direção ao que é verdadeiro, não encher a mente de informação."
+        },
+        {
+          "termo": "Mundo sensível e inteligível",
+          "definicao": "A distinção platônica entre as aparências mutáveis que percebemos e a realidade estável que só a razão alcança."
+        }
+      ],
+      "reflexao": [
+        "Quais são as 'sombras' em que você é mais habilidoso — os assuntos e jogos em que você brilha, mas que talvez não importem?",
+        "Quem está carregando os objetos atrás da sua fogueira, decidindo o que aparece na sua parede todos os dias?",
+        "Que desconforto você costuma evitar que talvez seja justamente o começo da sua subida?"
+      ],
+      "desafio": {
+        "titulo": "Primeira luz sem tela",
+        "descricao": "Amanhã, nos primeiros 20 minutos depois de acordar, não olhe nenhuma tela. Hoje à noite, anote em uma frase o que você costuma ver primeiro de manhã e como gostaria de começar o dia."
+      },
+      "quiz": [
+        {
+          "pergunta": "Segundo a alegoria, por que os prisioneiros resistem a quem tenta libertá-los?",
+          "opcoes": [
+            "Porque sabem que lá fora é perigoso",
+            "Porque as sombras são tudo o que conhecem, e a luz no início causa dor e confusão",
+            "Porque são proibidos por lei de sair",
+            "Porque o liberto mente sobre o que viu"
+          ],
+          "correta": 1,
+          "explicacao": "Para os prisioneiros, as sombras são a realidade. A luz ofusca e o liberto, de volta ao escuro, parece incompetente — por isso o rejeitam."
+        },
+        {
+          "pergunta": "Para Platão, qual é a essência da educação?",
+          "opcoes": [
+            "Acumular o máximo de informações possível",
+            "Vencer os outros no jogo de adivinhar as sombras",
+            "Abandonar o mundo e nunca mais voltar à caverna",
+            "Voltar a alma inteira na direção do que é verdadeiro"
+          ],
+          "correta": 3,
+          "explicacao": "A capacidade de ver já existe; educar é reorientá-la. Por isso a alegoria é, no fundo, sobre para onde dirigimos o olhar — ou seja, sobre atenção."
+        }
+      ],
+      "ponte": "Amanhã a neurociência mostra que, mesmo sem tela nenhuma, a mente cria a própria parede de sombras: ela passa quase metade do tempo longe do que estamos fazendo."
+    },
+    {
+      "dia": "ter",
+      "disciplina": "Neurociência",
+      "titulo": "Quase metade do seu dia, você não está aqui",
+      "subtitulo": "A rede de modo padrão, a mente que divaga e a atenção como recurso limitado",
+      "minutos": 8,
+      "texto": [
+        "Você já chegou ao trabalho sem lembrar de nenhum trecho do caminho? Ou leu uma página inteira e percebeu, no fim, que não sabe o que estava escrito? Seus olhos estavam lá. Você, não. Para onde foi?",
+        "Durante décadas, os neurocientistas tratavam o cérebro 'em repouso' como ruído de fundo: o interessante era o que acontecia quando a pessoa fazia uma tarefa. Até que o neurologista **Marcus Raichle** e colegas, num artigo de 2001, chamaram atenção para algo curioso: um conjunto de regiões (incluindo partes do córtex pré-frontal medial e do córtex cingulado posterior) ficava *mais* ativo justamente quando a pessoa **não** estava fazendo nada específico — e se aquietava quando ela se concentrava numa tarefa. Raichle chamou isso de **modo padrão** de funcionamento do cérebro. Hoje falamos em **rede de modo padrão** (*default mode network*).",
+        "Pesquisas posteriores associaram essa rede a pensar em si mesmo, lembrar do passado, imaginar o futuro e imaginar o que os outros pensam. Ou seja: quando você não está focado em nada, seu cérebro volta, por padrão, a contar histórias sobre você. Isso não é defeito — é daí que vêm planejamento, memória autobiográfica e parte da criatividade. Mas tem um preço.",
+        "## Uma mente que divaga é uma mente infeliz?",
+        "Em 2010, **Matthew Killingsworth e Daniel Gilbert**, de Harvard, publicaram na revista *Science* um estudo engenhoso. Um aplicativo de celular perguntava a cerca de 2.250 adultos, em momentos aleatórios do dia: o que você está fazendo? Está pensando em outra coisa? Quão feliz você está? Resultado: as pessoas estavam com a mente longe do que faziam em **cerca de 47% das amostras**. E, em média, estavam menos felizes quando divagavam do que quando estavam presentes — até quando divagavam para coisas agradáveis.",
+        "Honestidade importa aqui: o estudo é correlacional e a amostra era de usuários de iPhone que se ofereceram. Os autores fizeram uma análise temporal que sugere que divagar tende a vir *antes* da infelicidade, não só depois, mas isso não é prova definitiva de causa. E divagar não é sempre ruim: outros estudos ligam a mente errante à criatividade e ao planejamento. A lição não é 'nunca divague', e sim: **você divaga muito mais do que pensa, e quase nunca escolhe para onde.**",
+        "A atenção é um **recurso limitado**. No famoso experimento de Simons e Chabris (1999), cerca de metade das pessoas que contavam passes de basquete num vídeo simplesmente não viu alguém fantasiado de gorila atravessar a cena. Prestar atenção a uma coisa é, necessariamente, deixar de ver outras. Cada notificação é um saque nesse orçamento.",
+        "E a meditação? A ciência é animadora, mas modesta. Uma grande meta-análise de Goyal e colegas (2014, *JAMA Internal Medicine*) encontrou evidência moderada de que programas de meditação de atenção plena reduzem ansiedade, depressão e dor — com efeitos **pequenos a moderados**, comparáveis aos de outros tratamentos, não milagrosos. Estudos com meditadores experientes (Brewer e colegas, 2011) mostraram menor atividade na rede de modo padrão durante a prática. Não é mágica: é treino, como o hábito que você estudou com Aristóteles.",
+        "Então, a pergunta de hoje: nos últimos cinco minutos, quanto tempo *você* esteve aqui?"
+      ],
+      "trecho": {
+        "texto": "Uma mente humana é uma mente que divaga, e uma mente que divaga é uma mente infeliz.",
+        "fonte": "Matthew A. Killingsworth e Daniel T. Gilbert, “A Wandering Mind Is an Unhappy Mind”, Science (2010), tradução livre"
+      },
+      "conceitos": [
+        {
+          "termo": "Rede de modo padrão",
+          "definicao": "Conjunto de regiões cerebrais mais ativas quando não estamos focados numa tarefa externa, ligado a pensar em si, lembrar e imaginar."
+        },
+        {
+          "termo": "Amostragem de experiência",
+          "definicao": "Método que pergunta às pessoas, em momentos aleatórios do dia, o que estão fazendo e sentindo, em vez de confiar em lembranças posteriores."
+        },
+        {
+          "termo": "Cegueira por desatenção",
+          "definicao": "Fenômeno em que deixamos de perceber algo bem visível porque a atenção está concentrada em outra coisa."
+        }
+      ],
+      "reflexao": [
+        "Quando sua mente divaga, para onde ela costuma ir — passado, futuro, conflitos, fantasias? O que isso revela sobre suas preocupações?",
+        "Que 'gorilas' podem estar atravessando sua vida — pessoas, sinais, oportunidades — enquanto você conta passes?",
+        "Se a atenção é um orçamento, quem está gastando a maior parte do seu: você ou os aplicativos?"
+      ],
+      "desafio": {
+        "titulo": "Sinos de presença",
+        "descricao": "Programe três alarmes aleatórios hoje. Quando tocarem, anote em uma linha: o que eu estava fazendo, onde estava minha mente e como eu me sentia — o mesmo que o estudo de Harvard perguntava."
+      },
+      "quiz": [
+        {
+          "pergunta": "O que caracteriza a rede de modo padrão descrita a partir do trabalho de Raichle?",
+          "opcoes": [
+            "Ela se ativa mais quando não estamos concentrados numa tarefa externa",
+            "Ela só funciona durante o sono profundo",
+            "Ela é a responsável exclusiva pela concentração",
+            "Ela desliga completamente quando pensamos em nós mesmos"
+          ],
+          "correta": 0,
+          "explicacao": "A rede de modo padrão fica mais ativa no 'repouso' e se associa a pensar em si, lembrar e imaginar; tende a se aquietar quando focamos numa tarefa."
+        },
+        {
+          "pergunta": "Qual a conclusão mais honesta do estudo de Killingsworth e Gilbert?",
+          "opcoes": [
+            "Divagar causa depressão clínica, comprovadamente",
+            "A meditação elimina a divagação em poucas semanas",
+            "As pessoas divagam em quase metade do tempo e, em média, ficam menos felizes nesses momentos",
+            "Só pessoas distraídas divagam; as focadas quase nunca"
+          ],
+          "correta": 2,
+          "explicacao": "O estudo mostrou alta frequência de divagação (~47%) associada a menor felicidade. É uma associação forte, mas não prova definitiva de causa."
+        }
+      ],
+      "ponte": "Se a mente divaga porque não consegue largar o passado e o futuro, amanhã Borges imagina o caso extremo: um homem que não esquecia absolutamente nada."
+    },
+    {
+      "dia": "qua",
+      "disciplina": "Literatura",
+      "titulo": "O homem que não podia esquecer",
+      "subtitulo": "Jorge Luis Borges — “Funes, o memorioso” (1942)",
+      "minutos": 8,
+      "texto": [
+        "Quem nunca desejou uma memória perfeita? Lembrar de cada nome, cada senha, cada página lida para a prova. Borges imaginou esse desejo realizado — e mostrou que ele seria uma prisão.",
+        "O narrador, um jovem de Buenos Aires, conta que conheceu Ireneo Funes numa cidadezinha do Uruguai, Fray Bentos. Funes era um rapaz meio estranho, famoso por saber sempre a hora exata sem olhar relógio. Anos depois, o narrador volta e descobre que Funes caiu de um cavalo e ficou paralítico. Mas algo mais aconteceu na queda: ao recobrar a consciência, Funes passou a **perceber e lembrar absolutamente tudo**.",
+        "O narrador, meio por vaidade, empresta a ele livros em latim, língua que Funes não conhecia. Pouco depois, Funes recita de cor longos trechos. Numa noite, no quarto escuro onde Funes passa os dias, os dois conversam até o amanhecer, e o narrador vai descobrindo a extensão daquele dom. Funes lembra não só de cada folha de cada árvore, mas de cada vez que viu ou imaginou aquela folha. Reconstituir um dia inteiro de lembranças lhe tomava... um dia inteiro. Ele inventou um sistema numérico em que cada número tinha um nome próprio, sem perceber que isso destruía a própria ideia de contar.",
+        "E aqui vem o detalhe genial: Funes se incomodava que o cão visto de perfil às três e catorze tivesse o mesmo nome que o cão visto de frente às três e quinze. Para ele, eram coisas diferentes. A palavra 'cão' — que junta milhões de animais diferentes sob uma ideia só — lhe parecia uma mentira. Funes morre jovem, de congestão pulmonar, sem ter feito nada com aquela memória infinita.",
+        "## Pensar é esquecer",
+        "O narrador conclui que Funes **não era muito capaz de pensar**. Porque pensar exige generalizar, abstrair — ou seja, **ignorar** detalhes. Para entender que o cão de perfil e o cão de frente são 'o mesmo cão', você precisa esquecer as diferenças. Toda ideia é um esquecimento organizado. Funes tinha todas as árvores e nenhuma floresta.",
+        "Curiosamente, a neurociência chegou perto disso: esquecer não é só uma falha, mas parte de como o cérebro funciona bem, filtrando o que importa. E a lição de ontem ganha outra cor: **atenção é escolher o que ignorar**. Funes não conseguia escolher. Tudo entrava, nada era descartado — e por isso nada ganhava sentido.",
+        "Hoje temos algo parecido com a memória de Funes: a nuvem, o histórico, milhares de fotos, prints, áudios salvos 'para ver depois'. Guardamos tudo e, muitas vezes, entendemos pouco. Lemos dezenas de notícias e não conseguimos dizer o que pensamos sobre nenhuma. Talvez o problema nunca tenha sido falta de informação, e sim falta de **digestão**: o trabalho lento de esquecer o acessório para reter o essencial. Isso, aliás, é exatamente o que você faz quando escreve na sexta.",
+        "Funes passava as noites no escuro, sem conseguir dormir, porque dormir é se distrair do mundo. E você: o que tem guardado demais para conseguir realmente pensar?"
+      ],
+      "trecho": {
+        "texto": "Pensar é esquecer diferenças, é generalizar, abstrair.",
+        "fonte": "Jorge Luis Borges, “Funes, o memorioso”, em Ficções (1942/1944), tradução livre"
+      },
+      "conceitos": [
+        {
+          "termo": "Abstração",
+          "definicao": "Operação mental de deixar de lado as particularidades para captar o que várias coisas têm em comum."
+        },
+        {
+          "termo": "Esquecimento adaptativo",
+          "definicao": "Ideia de que esquecer seletivamente é útil, pois libera a mente do irrelevante e permite generalizar."
+        },
+        {
+          "termo": "Conto fantástico",
+          "definicao": "Narrativa que introduz um elemento impossível num mundo realista para iluminar algo verdadeiro sobre nós."
+        }
+      ],
+      "reflexao": [
+        "Que informações você acumula 'para depois' e nunca transforma em pensamento próprio?",
+        "Que lembrança, mágoa ou detalhe você precisaria esquecer — ou soltar — para enxergar o todo de uma situação?",
+        "Se pensar é escolher o que ignorar, o que você tem ignorado por escolha e o que tem ignorado por distração?"
+      ],
+      "desafio": {
+        "titulo": "Três frases, nada mais",
+        "descricao": "Escolha algo que você leu ou assistiu hoje e resuma em no máximo três frases o que realmente importa nele. Repare em tudo o que você teve de 'esquecer' para conseguir."
+      },
+      "quiz": [
+        {
+          "pergunta": "Por que o narrador suspeita que Funes não era muito capaz de pensar?",
+          "opcoes": [
+            "Porque Funes não sabia ler em latim",
+            "Porque pensar exige generalizar, e Funes não conseguia ignorar as diferenças entre as coisas",
+            "Porque a queda do cavalo danificou sua inteligência",
+            "Porque Funes passava o tempo todo dormindo"
+          ],
+          "correta": 1,
+          "explicacao": "A memória total impedia a abstração: sem esquecer detalhes, Funes não conseguia formar ideias gerais como 'cão'."
+        },
+        {
+          "pergunta": "Que relação o conto sugere entre memória, atenção e sentido?",
+          "opcoes": [
+            "Quanto mais guardamos, mais entendemos",
+            "Memória e atenção são a mesma coisa",
+            "A memória perfeita é o objetivo de todo estudo",
+            "Dar sentido exige selecionar: deixar de lado o acessório para reter o essencial"
+          ],
+          "correta": 3,
+          "explicacao": "Funes guardava tudo e não compreendia nada. O conto mostra que compreender depende de escolher — e, portanto, de esquecer."
+        }
+      ],
+      "ponte": "Amanhã, Simone Weil vai na direção oposta a Funes: em vez de agarrar tudo, a atenção verdadeira é esvaziar-se e esperar — e isso, para ela, é uma forma de oração."
+    },
+    {
+      "dia": "qui",
+      "disciplina": "Espiritualidade",
+      "titulo": "Prestar atenção é uma forma de amar",
+      "subtitulo": "Simone Weil e a atenção plena budista (sati e anicca)",
+      "minutos": 8,
+      "texto": [
+        "Pense na última vez em que alguém realmente prestou atenção em você. Não olhou o celular, não preparou a resposta enquanto você falava, não tentou consertar nada. Só escutou. Você provavelmente lembra até hoje. Por que algo tão simples é tão raro — e tão valioso?",
+        "Simone Weil (1909–1943) foi uma filósofa francesa brilhante e radical: largou a carreira de professora para trabalhar em fábricas, lutou na Guerra Civil Espanhola e, depois de experiências místicas, aproximou-se profundamente do cristianismo, sem nunca se batizar. Morreu aos 34 anos, na Inglaterra, debilitada, em parte por se recusar a comer mais do que as rações de seus compatriotas na França ocupada.",
+        "Em 1942, ela escreveu um pequeno texto com um título surpreendente: *Reflexões sobre o bom uso dos estudos escolares em vista do amor de Deus*. A tese: o verdadeiro valor de resolver um problema de geometria ou traduzir um texto latino **não está no resultado**, mas no treino da atenção. Mesmo um esforço que 'falha' faz crescer essa capacidade. E a atenção, no seu grau mais alto, diz ela, **é a mesma coisa que a oração**.",
+        "Mas Weil não entende atenção como 'franzir a testa e se esforçar'. Para ela, atenção é **suspender o pensamento**, deixá-lo disponível, vazio, aberto ao objeto — uma espera ativa, sem pressa de agarrar a resposta. É o contrário de Funes, que não conseguia soltar nada. E é aqui que a atenção vira ética: os que sofrem, escreve ela, precisam sobretudo de pessoas capazes de prestar atenção neles — de perguntar, de verdade, *qual é o teu sofrimento?* Por isso, numa carta ao poeta Joë Bousquet, ela escreveu a frase que abre esta lição.",
+        "## Sati: lembrar-se de estar aqui",
+        "Séculos antes, a tradição budista desenvolveu a ideia de **sati**, palavra páli geralmente traduzida como 'atenção plena', mas que carrega também o sentido de *lembrar*: lembrar-se de estar presente. No *Satipaṭṭhāna Sutta*, um dos discursos atribuídos ao Buda, o praticante observa o corpo, as sensações, os estados mentais e os fenômenos tal como surgem e passam.",
+        "E, ao observar com cuidado, percebe-se **anicca**, a impermanência: nenhuma sensação, pensamento ou emoção fica. A raiva sobe e cai. A ansiedade da manhã não é a mesma da tarde. Ver isso de perto, sem fugir para a divagação, é libertador — não por anestesiar, mas por mostrar que nós nos agarramos ao que já está indo embora.",
+        "Weil fala de Deus; o budismo clássico não fala de um Deus criador. Mesmo assim, as duas tradições convergem num ponto: a atenção é a porta para sair do pequeno teatro do ego — aquela rede de modo padrão sempre contando histórias sobre nós — e encontrar o que é real: o outro, o momento, o mistério. Para quem crê, isso é oração. Para quem não crê, é a forma mais concreta de respeito pela vida. Em ambos os casos, é um ato de generosidade: dar algo que ninguém pode comprar.",
+        "Então, hoje: quem merece sua atenção inteira — e ainda não a recebeu?"
+      ],
+      "trecho": {
+        "texto": "A atenção é a forma mais rara e mais pura da generosidade.",
+        "fonte": "Simone Weil, carta a Joë Bousquet (abril de 1942), tradução livre"
+      },
+      "conceitos": [
+        {
+          "termo": "Atenção (em Simone Weil)",
+          "definicao": "Disposição de suspender o próprio pensamento e ficar aberto ao objeto ou à pessoa, uma espera ativa que ela aproxima da oração."
+        },
+        {
+          "termo": "Sati",
+          "definicao": "Termo páli para atenção plena, com o sentido de lembrar-se continuamente de estar presente ao que acontece."
+        },
+        {
+          "termo": "Anicca",
+          "definicao": "Impermanência: no budismo, a constatação de que todos os fenômenos surgem, mudam e passam."
+        }
+      ],
+      "reflexao": [
+        "Quando alguém próximo fala com você, você está escutando ou esperando sua vez de falar?",
+        "Que pessoa na sua vida está sofrendo e talvez precise menos de conselhos e mais da sua atenção inteira?",
+        "Que sentimento seu você trata como permanente, quando talvez ele já esteja passando?"
+      ],
+      "desafio": {
+        "titulo": "Uma conversa sem defesa",
+        "descricao": "Em uma conversa hoje, dê atenção total: celular longe, sem interromper, sem preparar resposta. Antes de falar, faça ao menos uma pergunta sincera sobre o que a outra pessoa está vivendo."
+      },
+      "quiz": [
+        {
+          "pergunta": "Para Simone Weil, qual é o principal valor dos estudos escolares?",
+          "opcoes": [
+            "Treinar a capacidade de atenção, que ela aproxima da oração e do amor ao próximo",
+            "Garantir boas notas e uma carreira estável",
+            "Memorizar o máximo de conteúdos possível",
+            "Provar a existência de Deus pela geometria"
+          ],
+          "correta": 0,
+          "explicacao": "Weil diz que mesmo o esforço sem resultado faz crescer a atenção, e é essa capacidade que nos torna aptos a orar e a cuidar dos outros."
+        },
+        {
+          "pergunta": "Como a percepção de anicca (impermanência) se relaciona com a prática de sati?",
+          "opcoes": [
+            "Sati serve para tornar as emoções permanentes",
+            "Anicca só pode ser compreendida pela leitura de textos, não pela observação",
+            "Observando com atenção, percebe-se que sensações e pensamentos surgem e passam, o que afrouxa o apego",
+            "As duas ideias se contradizem"
+          ],
+          "correta": 2,
+          "explicacao": "A atenção plena permite ver de perto que nada fica, e essa constatação diminui a força com que nos agarramos aos estados passageiros."
+        }
+      ],
+      "ponte": "Weil e o prisioneiro de Platão vivem a mesma coisa: a atenção verdadeira começa desconfortável, como olhos que doem diante da luz, mas é ela que nos tira da caverna e nos devolve aos outros."
+    }
+  ],
+  "sexta": {
+    "titulo": "Para onde vai minha atenção — e quem ela está formando?",
+    "proposta": "Nesta semana você viu que a atenção não é um detalhe técnico de produtividade: ela define o que você chama de realidade (Platão), ocupa quase metade do seu dia sem você perceber (Killingsworth e Gilbert), depende de escolher o que esquecer (Borges) e pode ser a forma mais pura de amor (Weil e a atenção plena). Escreva um texto pessoal sobre a sua atenção: onde ela tem estado, o que ela tem construído em você e o que você quer fazer com ela. Lembre de Aristóteles: aquilo a que você presta atenção todos os dias vira hábito, e o hábito vira caráter. Escrever é, em si, o exercício desta semana: escolher o essencial e esquecer o resto.",
+    "perguntas_guia": [
+      "Quais são as 'sombras na parede' que mais capturam sua atenção hoje, e o que seria, para você, sair da caverna sem fugir do mundo?",
+      "O que seus registros de divagação (desafio de terça) revelaram sobre para onde sua mente vai quando ninguém está escolhendo por ela?",
+      "Como Funes, o que você acumula sem digerir — e o que precisaria esquecer para pensar com mais clareza?",
+      "A partir de Simone Weil e da atenção plena, a quem ou a que você quer dar sua atenção inteira, e que pequena mudança concreta vai fazer na próxima semana?"
+    ],
+    "palavras_minimas": 250,
+    "criterios": [
+      "Usei ao menos três das quatro lições da semana, conectando-as em vez de apenas resumi-las.",
+      "Trouxe exemplos concretos da minha própria rotina, não só ideias abstratas.",
+      "Fui honesto sobre algo que me incomoda na forma como uso minha atenção.",
+      "Selecionei o essencial: o texto tem uma ideia central clara, não uma lista de tudo o que li.",
+      "Terminei com um compromisso prático e verificável para a próxima semana."
+    ]
+  }
+}

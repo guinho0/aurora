@@ -1,0 +1,268 @@
+{
+  "semana": 1,
+  "modulo": 1,
+  "tema": "O despertar: examinar a própria vida",
+  "introducao": "Toda jornada de conhecimento começa com um gesto simples e incômodo: olhar para si mesmo com honestidade. Nesta semana, você vai ver por que Sócrates achava que uma vida sem exame não vale a pena, como o cérebro literalmente se molda pelo que repetimos, que farda Machado de Assis suspeita que você veste e como os estoicos transformaram o autoexame num ritual diário. Na sexta, é a sua vez de escrever.",
+  "licoes": [
+    {
+      "dia": "seg",
+      "disciplina": "Filosofia",
+      "titulo": "O sábio que sabia não saber",
+      "subtitulo": "Sócrates, na Apologia de Platão — o Oráculo de Delfos e a vida examinada",
+      "minutos": 7,
+      "texto": [
+        "Imagine que um amigo seu vai a um oráculo e pergunta: “existe alguém mais sábio que fulano?”. A resposta vem seca: “Ninguém”. Você ficaria lisonjeado? Sócrates ficou perturbado. Em Atenas, no século V a.C., seu amigo Querefonte fez exatamente essa pergunta à sacerdotisa de Apolo, em Delfos. E Sócrates, que se considerava ignorante sobre as coisas mais importantes da vida, resolveu investigar o que o deus queria dizer com aquilo.",
+        "No templo de Delfos havia uma inscrição famosa: **“Conhece-te a ti mesmo”** (*gnôthi seautón*). Não era um convite a fazer teste de personalidade. Era um lembrete de limites: você é humano, não deus; saiba o que você é e o que não é. Sócrates levou isso a sério e foi para a rua testar o oráculo. Conversou com políticos, poetas e artesãos, gente com fama de saber.",
+        "O resultado foi constrangedor — para os outros. Os políticos falavam com segurança sobre justiça e virtude, mas, perguntados com calma, caíam em contradição. Os poetas escreviam coisas belíssimas sem conseguir explicá-las. Os artesãos dominavam seu ofício e, por isso mesmo, achavam-se autoridades em tudo. Sócrates concluiu, segundo o relato de Platão na *Apologia*: talvez ele fosse mais sábio só nisto — **o que não sabia, também não pensava saber**.",
+        "## A frase que Sócrates (provavelmente) não disse",
+        "Um detalhe de rigor: a fórmula “só sei que nada sei” não aparece literalmente na *Apologia*. Ela é um resumo posterior, e um pouco exagerado. Sócrates não dizia que não sabia *nada*; dizia que não confundia opinião com conhecimento. É a diferença entre um GPS que avisa “recalculando rota” e outro que, com toda a confiança, manda você para dentro de um rio. A ignorância reconhecida é ponto de partida; a ignorância fantasiada de certeza é o verdadeiro problema.",
+        "Esse jeito de perguntar até a contradição aparecer ficou conhecido como **élenchos**, a refutação pelo diálogo. E irritou muita gente importante. Em 399 a.C., Sócrates foi levado a julgamento, acusado de não reconhecer os deuses da cidade e de corromper a juventude. Diante dos jurados, poderia ter prometido se calar e salvar a pele. Recusou. Disse que a vida sem exame não vale a pena ser vivida. Foi condenado à morte e bebeu a cicuta.",
+        "Por que isso importa numa segunda-feira de manhã, com o trânsito e os e-mails à sua espera? Porque a maior parte do que fazemos roda no piloto automático: opiniões herdadas, reações repetidas, metas que nunca escolhemos de verdade. Examinar a vida não é ficar remoendo culpa. É fazer, sobre si mesmo, o que Sócrates fazia com os atenienses: perguntar “o que exatamente eu quero dizer com isso?” sobre palavras enormes como sucesso, felicidade, amor, Deus.",
+        "Sócrates não deixou nenhum livro. Deixou um incômodo. E a pergunta que ele faz a você hoje é simples e afiada: das coisas de que você tem certeza, quantas você já examinou de verdade — e quantas apenas repetiu?"
+      ],
+      "trecho": {
+        "texto": "A vida sem exame não é digna de ser vivida pelo homem.",
+        "fonte": "Platão, Apologia de Sócrates, 38a (escrita no início do séc. IV a.C., sobre o julgamento de 399 a.C.), tradução livre"
+      },
+      "conceitos": [
+        { "termo": "Conhece-te a ti mesmo", "definicao": "Inscrição do templo de Apolo em Delfos que lembrava ao ser humano seus limites e que Sócrates transformou em tarefa de vida." },
+        { "termo": "Ignorância socrática", "definicao": "A sabedoria de reconhecer o que não se sabe, em vez de confundir opinião com conhecimento." },
+        { "termo": "Élenchos", "definicao": "Método socrático de perguntas sucessivas que expõe contradições numa crença aparentemente sólida." },
+        { "termo": "Vida examinada", "definicao": "Vida em que as próprias crenças, valores e escolhas são questionados conscientemente, e não apenas herdados." }
+      ],
+      "reflexao": [
+        "Qual é uma opinião forte que você defende há anos, mas que nunca colocou à prova de verdade?",
+        "Em que área da sua vida você age como os artesãos de Atenas — competente em uma coisa e, por isso, achando-se sábio em todas?",
+        "Se alguém fizesse com você o que Sócrates fazia nas ruas, qual pergunta você mais temeria ouvir?"
+      ],
+      "desafio": {
+        "titulo": "Interrogue uma certeza",
+        "descricao": "Escolha uma crença forte sua (sobre trabalho, política, uma pessoa ou sobre você mesmo) e pergunte três vezes seguidas: “por que eu acredito nisso?”. Anote no celular as respostas e marque o ponto em que a justificativa ficou fraca."
+      },
+      "quiz": [
+        {
+          "pergunta": "Segundo a Apologia, em que sentido Sócrates seria mais sábio que os outros atenienses?",
+          "opcoes": [
+            "Porque sabia mais sobre política e poesia do que os especialistas",
+            "Porque o oráculo lhe revelou verdades secretas sobre os deuses",
+            "Porque não julgava saber aquilo que não sabia",
+            "Porque nunca tinha opiniões sobre assunto nenhum"
+          ],
+          "correta": 2,
+          "explicacao": "A vantagem de Sócrates não era acumular conhecimento, mas não confundir ignorância com saber. Os outros achavam que sabiam; ele sabia que não sabia."
+        },
+        {
+          "pergunta": "Qual destas atitudes está mais próxima da “vida examinada” de Sócrates?",
+          "opcoes": [
+            "Sentir culpa todas as noites por tudo o que fez de errado",
+            "Perguntar o que realmente entende por “sucesso” antes de persegui-lo",
+            "Adotar as opiniões das pessoas mais inteligentes que conhece",
+            "Evitar qualquer certeza para não correr o risco de errar"
+          ],
+          "correta": 1,
+          "explicacao": "Examinar a vida é investigar os conceitos e valores que guiam nossas escolhas. Não é autopunição nem ceticismo paralisante."
+        }
+      ],
+      "ponte": "Sócrates fala do piloto automático das opiniões; amanhã, a neurociência mostra que esse piloto automático tem base física — e que pode ser reprogramado."
+    },
+    {
+      "dia": "ter",
+      "disciplina": "Neurociência",
+      "titulo": "O cérebro que se reescreve",
+      "subtitulo": "Neuroplasticidade — Donald Hebb (1949) e os taxistas de Londres de Eleanor Maguire",
+      "minutos": 8,
+      "texto": [
+        "Pense no caminho que você faz de casa até o trabalho. Provavelmente você chega sem lembrar de metade das curvas. No primeiro dia, porém, cada esquina exigia atenção total. O que mudou não foi a rua. Foi você — mais precisamente, o seu cérebro.",
+        "Durante boa parte do século XX, predominou a ideia de que o cérebro adulto era uma estrutura praticamente fixa: depois da infância, restaria apenas manter o que existe. Hoje sabemos que a história é outra. O cérebro muda ao longo da vida inteira em resposta ao que fazemos, praticamos e prestamos atenção. A essa capacidade damos o nome de **neuroplasticidade**.",
+        "## Disparar juntos, conectar juntos",
+        "Em 1949, o psicólogo canadense **Donald Hebb** propôs, no livro *The Organization of Behavior*, um mecanismo: quando um neurônio A ajuda repetidamente a ativar um neurônio B, a conexão entre eles se fortalece. Décadas depois a ideia ganhou um slogan — “neurônios que disparam juntos se conectam” — que não é de Hebb (costuma ser atribuído à neurocientista Carla Shatz, em 1992). A imagem é a de uma trilha no mato: quanto mais você passa, mais nítido fica o caminho e mais fácil é passar de novo.",
+        "A demonstração mais famosa disso em adultos veio de Londres. Para obter a licença, taxistas precisam memorizar milhares de ruas — o chamado *The Knowledge*, que leva anos de estudo. Em 2000, a equipe de **Eleanor Maguire** comparou exames de ressonância de 16 taxistas com os de homens que não dirigiam táxi. Os taxistas tinham o **hipocampo posterior**, região ligada à memória espacial, maior — e quanto mais anos de profissão, maior ele era. Já a parte anterior do hipocampo era menor.",
+        "Mas cuidado: um estudo assim mostra apenas correlação. Talvez pessoas com hipocampo maior simplesmente tendam a virar taxistas. Por isso, em 2011, Katherine Woollett e Maguire acompanharam candidatos durante o treinamento. Os aprovados mostraram aumento de massa cinzenta no hipocampo posterior; quem desistiu ou foi reprovado, não. Ainda são amostras modestas, e houve um custo: os taxistas se saíram pior em alguns testes de memória visual nova. O cérebro não ganha de graça; ele realoca.",
+        "E o que isso tem a ver com Sócrates? Tudo o que você repete tende a virar estrutura. Ruminar mágoas, pegar o celular ao acordar, desviar o olhar de perguntas difíceis — tudo isso também são trilhas. A boa notícia é simétrica: atenção deliberada e repetida também abre caminhos. Só não exagere: nenhum estudo mostrou que “examinar a vida” faz uma área específica do cérebro crescer. O que a ciência sustenta é o princípio geral — aquilo que você pratica com frequência tende a ficar mais fácil e mais automático.",
+        "Então a pergunta de Delfos ganha uma versão nova. Não basta perguntar “quem eu sou?”. Vale perguntar também: “quem eu estou treinando para ser?”. Que trilhas você reforçou ontem sem perceber?"
+      ],
+      "trecho": {
+        "texto": "Quando um axônio da célula A está próximo o bastante para excitar a célula B e, repetida ou persistentemente, participa de seu disparo, ocorre algum processo de crescimento ou mudança metabólica em uma ou ambas as células, de modo que a eficiência de A, como uma das células que fazem B disparar, aumenta.",
+        "fonte": "Donald O. Hebb, The Organization of Behavior (1949), tradução livre"
+      },
+      "conceitos": [
+        { "termo": "Neuroplasticidade", "definicao": "Capacidade do sistema nervoso de modificar suas conexões e estruturas em resposta à experiência, ao longo de toda a vida." },
+        { "termo": "Aprendizagem hebbiana", "definicao": "Princípio segundo o qual conexões entre neurônios ativados juntos repetidamente se fortalecem." },
+        { "termo": "Hipocampo", "definicao": "Estrutura cerebral essencial para a formação de memórias e para a navegação espacial." },
+        { "termo": "Correlação x causalidade", "definicao": "Duas coisas andarem juntas não prova que uma causa a outra; para isso são necessários estudos que acompanhem a mudança ao longo do tempo." }
+      ],
+      "reflexao": [
+        "Qual hábito mental (preocupação, crítica, comparação) você praticou tanto que ele agora dispara sozinho?",
+        "Se o seu cérebro é moldado pelo que você repete, que pessoa a sua rotina atual está construindo?",
+        "Que trilha você gostaria de abrir, mas abandona sempre antes que ela fique fácil?"
+      ],
+      "desafio": {
+        "titulo": "Flagre um piloto automático",
+        "descricao": "Escolha um gesto automático do seu dia (pegar o celular, reclamar de algo, responder sem ouvir) e, hoje, sempre que ele surgir, pare um segundo e diga mentalmente: “trilha”. Só notar já é o primeiro passo para não reforçá-la sem querer."
+      },
+      "quiz": [
+        {
+          "pergunta": "Por que o estudo de 2011 de Woollett e Maguire foi importante em relação ao de 2000?",
+          "opcoes": [
+            "Porque usou mais taxistas experientes do que o primeiro",
+            "Porque provou que todo adulto pode aumentar o hipocampo com qualquer estudo",
+            "Porque mostrou que o hipocampo dos taxistas era menor",
+            "Porque acompanhou as mesmas pessoas ao longo do treinamento, indo além da simples correlação"
+          ],
+          "correta": 3,
+          "explicacao": "O estudo de 2000 comparava grupos num único momento. Ao acompanhar candidatos antes e depois, o de 2011 tornou mais plausível que o treino tenha causado a mudança."
+        },
+        {
+          "pergunta": "Segundo o princípio de Hebb, o que tende a acontecer com um hábito de pensamento repetido todos os dias?",
+          "opcoes": [
+            "Ele desaparece, porque o cérebro se cansa da repetição",
+            "Ele se torna mais fácil e automático, porque as conexões envolvidas se fortalecem",
+            "Ele não muda nada no cérebro, só no comportamento",
+            "Ele só se fixa se for aprendido antes da idade adulta"
+          ],
+          "correta": 1,
+          "explicacao": "Ativações repetidas fortalecem as conexões entre os neurônios envolvidos, tornando o padrão mais provável — para o bem e para o mal."
+        }
+      ],
+      "ponte": "Se o que repetimos vira estrutura, o que acontece quando repetimos uma imagem de nós mesmos? Amanhã, Machado de Assis conta a história de um homem que se tornou a própria farda."
+    },
+    {
+      "dia": "qua",
+      "disciplina": "Literatura",
+      "titulo": "A farda que engoliu o homem",
+      "subtitulo": "Machado de Assis, “O Espelho” (1882) — esboço de uma nova teoria da alma humana",
+      "minutos": 8,
+      "texto": [
+        "Faça um teste mental: imagine passar uma semana sem ninguém chamar você pelo cargo, sem curtidas, sem mensagens de trabalho, sem ninguém que o reconheça. Quem sobra? Machado de Assis fez essa pergunta em 1882, num conto curto e diabólico chamado “O Espelho”, depois reunido no livro *Papéis Avulsos*.",
+        "A cena: uma noite em Santa Teresa, no Rio de Janeiro, alguns cavalheiros discutem questões de alta metafísica. Um deles, Jacobina, homem de uns quarenta e cinco anos que nunca discute, de repente pede a palavra — com uma condição: ninguém pode interrompê-lo. E anuncia sua teoria: cada ser humano traz **duas almas**. Uma olha de dentro para fora; a outra, de fora para dentro.",
+        "## A alma exterior",
+        "A **alma exterior**, explica Jacobina, pode ser quase qualquer coisa: uma pessoa, um objeto, uma posição social, uma atividade. E perdê-la pode equivaler a perder metade da existência. Para provar, ele conta o que lhe aconteceu aos vinte e cinco anos.",
+        "Pobre, ele foi nomeado **alferes da Guarda Nacional**. A família explodiu de orgulho. Uma tia, dona Marcolina, convidou-o para passar uns tempos em seu sítio e ali só o chamava de “senhor alferes”; os escravizados da casa também. Ela chegou a pôr no quarto dele o objeto mais fino da casa: um grande espelho antigo, de família fidalga, ligado à época da chegada da corte de D. João VI. Cercado de reverências, Jacobina resume: “o alferes eliminou o homem”.",
+        "Então a tia precisa partir às pressas para cuidar de uma filha doente. Pouco depois, os escravizados fogem. Jacobina fica completamente sozinho no sítio. Ninguém mais o chama de alferes. O tempo se arrasta, o relógio da sala parece zombar dele. Quando, depois de dias, ele finalmente se olha no espelho, a imagem não aparece nítida e inteira, mas “vaga, esfumada, difusa, sombra de sombra”. Sem plateia, ele quase deixa de existir.",
+        "A saída é tão absurda quanto genial: ele veste a farda de alferes e se põe diante do espelho. A figura volta inteira, nítida. A partir daí, todos os dias, veste o uniforme e passa horas se olhando — e assim atravessa a solidão até o fim. Terminada a história, quando os ouvintes voltam a si, Jacobina já desceu as escadas e foi embora, sem admitir réplica.",
+        "Machado não está apenas zombando de um militarzinho vaidoso. Ele expõe algo desconfortável: grande parte do que chamamos de “eu” está apoiada no olhar dos outros — no crachá, no título, na foto de perfil, no elogio do chefe. Sócrates mandava conhecer a si mesmo; Machado pergunta, com seu sorriso torto: e se, ao tirar a farda, não houver ninguém ali para conhecer? A pergunta hoje é sua: qual é a sua farda — e quanto de você ainda resta sem ela?"
+      ],
+      "trecho": {
+        "texto": "Cada criatura humana traz duas almas consigo: uma que olha de dentro para fora, outra que olha de fora para dentro...",
+        "fonte": "Machado de Assis, “O Espelho”, em Papéis Avulsos (1882)"
+      },
+      "conceitos": [
+        { "termo": "Alma interior", "definicao": "No conto, a parte de nós que olha de dentro para fora: nossa percepção íntima de quem somos." },
+        { "termo": "Alma exterior", "definicao": "Aquilo de fora (pessoa, objeto, cargo, prestígio) de onde extraímos nossa identidade e sem o qual nos sentimos incompletos." },
+        { "termo": "Ironia machadiana", "definicao": "Estilo de Machado de Assis que, sob o tom leve e bem-humorado, revela verdades incômodas sobre a vaidade e a condição humana." }
+      ],
+      "reflexao": [
+        "Se amanhã você perdesse o cargo, o título ou o papel social de que mais se orgulha, quem você diria que é?",
+        "De quem é o olhar sem o qual sua imagem no espelho ficaria “vaga, esfumada, difusa”?",
+        "Em que momento recente você vestiu uma farda só para conseguir se reconhecer?"
+      ],
+      "desafio": {
+        "titulo": "Apresente-se sem farda",
+        "descricao": "Escreva em três frases quem você é sem mencionar profissão, cargo, formação, bens ou papéis familiares. Repare no desconforto: ele mostra o tamanho da sua alma exterior."
+      },
+      "quiz": [
+        {
+          "pergunta": "O que acontece com a imagem de Jacobina no espelho quando ele fica sozinho no sítio?",
+          "opcoes": [
+            "Ela aparece borrada e difusa, até que ele veste a farda e ela volta nítida",
+            "Ela desaparece por completo e nunca mais retorna",
+            "Ela mostra o rosto da tia Marcolina em vez do dele",
+            "Ela fica mais nítida, porque longe dos outros ele finalmente se encontra"
+          ],
+          "correta": 0,
+          "explicacao": "Sem ninguém para reconhecê-lo como alferes, sua identidade se esvai; a farda, símbolo da alma exterior, devolve a imagem inteira."
+        },
+        {
+          "pergunta": "Qual é a crítica central que Machado faz com a teoria das duas almas?",
+          "opcoes": [
+            "Que a carreira militar corrompe os jovens",
+            "Que os espelhos antigos distorcem a realidade",
+            "Que nossa identidade pode depender tanto do reconhecimento externo que, sem ele, quase deixamos de existir",
+            "Que a solidão no campo leva inevitavelmente à loucura"
+          ],
+          "correta": 2,
+          "explicacao": "A farda é só um exemplo: o conto revela como a alma exterior — o olhar e o prestígio dos outros — pode engolir a interior."
+        }
+      ],
+      "ponte": "Jacobina só se reconhecia pelo olhar dos outros. Amanhã, Sêneca e Marco Aurélio mostram um treino diário para construir um olhar de dentro que não dependa da farda."
+    },
+    {
+      "dia": "qui",
+      "disciplina": "Espiritualidade",
+      "titulo": "O tribunal da noite",
+      "subtitulo": "Pierre Hadot e os exercícios espirituais — Sêneca (De Ira, III, 36) e Marco Aurélio",
+      "minutos": 8,
+      "texto": [
+        "Roma, século I. A luz se apaga, a esposa — que já conhece o hábito do marido — fica em silêncio. E um dos homens mais ricos e influentes do Império começa a se julgar. Era Sêneca, e ele descreveu esse ritual no livro *Sobre a ira*: todas as noites repassava o dia inteiro, palavra por palavra, ato por ato, sem esconder nada de si mesmo.",
+        "O filósofo francês **Pierre Hadot** (1922–2010) dedicou a vida a mostrar que, para os antigos, a filosofia não era sobretudo teoria para prova de faculdade. Era um **modo de vida**. Em *Exercícios espirituais e filosofia antiga* (1981), ele defendeu que as escolas gregas e romanas praticavam exercícios para transformar a maneira de ver e de ser — e os chamou de “espirituais” justamente porque envolviam a pessoa inteira: pensamento, imaginação, emoção e vontade.",
+        "## As três perguntas de Sêneca",
+        "Sêneca conta que herdou o costume do filósofo Séxtio, que ao fim do dia interrogava a própria alma: *Que mal teu curaste hoje? A que vício resististe? Em que és melhor?* Repare no tom. Não é “que pecador miserável eu sou”, nem “como fui incrível”. É o tom de um médico examinando um paciente de quem gosta. Sêneca diz que dorme melhor depois disso e encerra seus próprios julgamentos com uma absolvição gentil: “cuida para não fazer mais isso; agora eu te perdoo”.",
+        "Um século depois, o imperador **Marco Aurélio** fazia algo parecido, por escrito. Em meio a guerras na fronteira do Danúbio e a uma epidemia que devastava o Império, ele anotava lembretes para si mesmo, em grego. Esses cadernos não foram feitos para publicação; o título tradicional pode ser traduzido como *Para si mesmo* — no Brasil, *Meditações* ou *Pensamentos*. Hadot mostrou que ali não há um tratado, mas exercícios: o imperador repete as mesmas ideias para gravá-las em si, como quem afina um instrumento todos os dias.",
+        "Ele escreve, por exemplo, que as pessoas buscam retiros no campo, na praia, nas montanhas, mas que em lugar nenhum alguém se retira com mais tranquilidade do que na própria alma. A interioridade, aqui, não é fuga do mundo: é o lugar de onde se volta a ele melhor. Marco Aurélio tinha um império para governar; seu diário era o treino que tornava esse peso suportável.",
+        "Isso é espiritualidade? No sentido amplo, sim: cultivar a vida interior, buscar sentido, alinhar o que se faz ao que se considera bom. Práticas parecidas aparecem em tradições muito diferentes — o exame de consciência inaciano dos cristãos, a *muhasaba* (prestação de contas consigo) do islã, a atenção plena budista, o diário de alguém sem religião. Os estoicos oferecem uma versão que não exige uma crença específica, apenas honestidade e constância.",
+        "Sócrates disse que a vida sem exame não vale a pena. Sêneca e Marco Aurélio responderam com uma pergunta prática: e quando, exatamente, você examina a sua? Se a resposta for “nunca tenho tempo”, talvez o exame mais urgente seja justamente esse."
+      ],
+      "trecho": {
+        "texto": "Que mal teu curaste hoje? A que vício resististe? Em que és melhor?",
+        "fonte": "Sêneca, Sobre a Ira (De Ira), III, 36 (c. 41–49 d.C.), relatando o hábito do filósofo Séxtio; tradução livre"
+      },
+      "conceitos": [
+        { "termo": "Exercício espiritual", "definicao": "Para Pierre Hadot, prática filosófica que visa transformar a pessoa inteira — seu modo de ver, sentir e agir — e não apenas informar o intelecto." },
+        { "termo": "Exame de consciência", "definicao": "Revisão deliberada e honesta do próprio dia, buscando entender e corrigir, não punir." },
+        { "termo": "Para si mesmo", "definicao": "Título tradicional dos cadernos de Marco Aurélio: anotações escritas para o próprio autor, como treino interior, e não para leitores." }
+      ],
+      "reflexao": [
+        "Quando você revisa o seu dia, o tom é de um juiz cruel, de um advogado complacente ou de um médico que quer o seu bem?",
+        "Qual “vício” de ontem você teria vergonha de anotar — e por quê?",
+        "Se o seu diário fosse escrito só para você, como o de Marco Aurélio, o que você finalmente admitiria nele?"
+      ],
+      "desafio": {
+        "titulo": "As três perguntas de Séxtio",
+        "descricao": "Hoje à noite, antes de dormir, reserve três minutos para responder por escrito: que mal curei hoje? a que vício resisti? em que fui melhor? Termine com uma frase de perdão a si mesmo, como Sêneca."
+      },
+      "quiz": [
+        {
+          "pergunta": "Por que Pierre Hadot chama certas práticas filosóficas antigas de “exercícios espirituais”?",
+          "opcoes": [
+            "Porque eram rituais religiosos obrigatórios nos templos romanos",
+            "Porque buscavam transformar a pessoa inteira, e não só transmitir teorias",
+            "Porque só podiam ser praticados por sacerdotes e filósofos profissionais",
+            "Porque tinham como objetivo comunicar-se com os mortos"
+          ],
+          "correta": 1,
+          "explicacao": "Para Hadot, a filosofia antiga era um modo de vida, e seus exercícios envolviam pensamento, emoção e vontade — por isso “espirituais”, no sentido amplo."
+        },
+        {
+          "pergunta": "Qual é o espírito do exame noturno descrito por Sêneca?",
+          "opcoes": [
+            "Punir-se severamente para não errar mais",
+            "Celebrar as conquistas do dia para elevar a autoestima",
+            "Esquecer o dia rapidamente para dormir em paz",
+            "Avaliar o dia com honestidade e gentileza, buscando melhorar"
+          ],
+          "correta": 3,
+          "explicacao": "Sêneca não esconde nada de si, mas encerra o exame com perdão e propósito de correção: é cuidado, não autoflagelação."
+        }
+      ],
+      "ponte": "Sêneca transformou a pergunta de Sócrates num hábito diário — e, como vimos na terça, hábitos repetidos tendem a deixar marcas no próprio cérebro."
+    }
+  ],
+  "sexta": {
+    "titulo": "Quem é o eu que examina?",
+    "proposta": "Nesta semana você ouviu quatro vozes sobre o mesmo gesto: olhar para dentro. Sócrates disse que a vida sem exame não vale a pena; a neurociência mostrou que aquilo que repetimos vai moldando o cérebro; Machado de Assis sugeriu que boa parte do nosso “eu” pode ser só uma farda; e Sêneca e Marco Aurélio transformaram o autoexame num ritual diário. Agora escreva um texto pessoal tentando responder: quando eu me examino, quem está examinando — e quem está sendo examinado? Não se trata de resumir as lições, mas de usá-las como ferramentas para pensar sobre a sua própria vida. Escrever obriga o pensamento a sair da névoa: é o seu próprio exercício espiritual da semana.",
+    "perguntas_guia": [
+      "Que certeza sua você colocou em xeque nesta semana, ao estilo de Sócrates, e o que descobriu ao examiná-la?",
+      "Que “trilha” mental você percebeu estar reforçando todos os dias, e que trilha nova gostaria de começar a abrir?",
+      "Qual é a sua alma exterior, a sua “farda”, e o que sobraria da sua imagem no espelho sem ela?",
+      "Como seria um exame noturno à moda de Sêneca feito por você, e que tom — juiz, advogado ou médico — você quer usar consigo mesmo?"
+    ],
+    "palavras_minimas": 250,
+    "criterios": [
+      "Usei pelo menos um conceito de cada um dos quatro dias",
+      "Dei pelo menos um exemplo concreto da minha própria vida",
+      "Tentei responder, mesmo que provisoriamente, à pergunta “quem é o eu que examina?”",
+      "Fui honesto: escrevi algo que não diria em voz alta numa reunião",
+      "Terminei com uma decisão prática ou uma pergunta que quero levar para a próxima semana"
+    ]
+  }
+}

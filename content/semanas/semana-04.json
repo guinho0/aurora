@@ -1,0 +1,310 @@
+{
+  "semana": 4,
+  "modulo": 1,
+  "tema": "Emoção e razão: quem governa você?",
+  "introducao": "Você decide com a cabeça ou com o coração? Nesta última semana do Módulo 1, vamos descobrir que essa pergunta talvez esteja mal formulada: filósofos, neurocientistas, um romancista russo e um santo africano vão mostrar que razão e emoção são parceiras inseparáveis. E, no fim, você vai olhar para trás e escrever quem descobriu ser nestas quatro semanas.",
+  "licoes": [
+    {
+      "dia": "seg",
+      "disciplina": "Filosofia",
+      "titulo": "O cocheiro ou o escravo?",
+      "subtitulo": "Platão (Fedro) versus David Hume (Tratado da Natureza Humana)",
+      "minutos": 7,
+      "texto": [
+        "São 23h40. Você prometeu a si mesmo dormir cedo, mas o dedo desliza para mais um vídeo. Uma voz interna diz “chega”; outra, mais macia, diz “só mais um”. Quem ganha? E, mais importante: **quem é você** nessa briga — a voz que manda parar ou a que quer continuar?",
+        "Platão deu a essa cena uma imagem que atravessou 2.400 anos. No diálogo *Fedro*, Sócrates compara a alma a uma carruagem alada: um **cocheiro** (a razão) conduz **dois cavalos**. Um é belo, de pescoço erguido, amigo da honra e obediente à palavra — o lado nobre do nosso ímpeto. O outro é torto, pesado, surdo, e só cede ao chicote — o apetite cru, que quer tudo agora. Conduzir essa parelha é, nas palavras do diálogo, uma tarefa “difícil e penosa”. Viver bem, para Platão, é o cocheiro aprender a governar, sem matar os cavalos: sem eles a carruagem não sai do lugar.",
+        "Repare no detalhe: Platão não manda eliminar a paixão. O cavalo bom é emoção também — coragem, vergonha, entusiasmo. A ideia é de **hierarquia**: a razão vê para onde ir; as paixões dão a força.",
+        "## O escocês que virou a mesa",
+        "Em 1739, um jovem escocês de 28 anos chamado David Hume publicou uma frase que ainda escandaliza: “a razão é, e deve ser apenas, escrava das paixões”. Para Hume, a razão sozinha nunca move ninguém. Ela calcula, compara, descobre que o fogo queima e que o ônibus sai às 7h — mas não *quer* nada. Quem quer é a paixão: o desejo de chegar a tempo, o medo de se queimar. A razão é a assessora brilhante que mostra o caminho; o patrão é o desejo. Hume chega a provocar: não é contrário à razão preferir a destruição do mundo inteiro a um arranhão no meu dedo. É monstruoso, sim — mas o erro está no sentimento, não na lógica.",
+        "Note que Hume não está elogiando a impulsividade. Ele lembra que existem “paixões calmas” — como a benevolência ou o interesse pelo próprio bem a longo prazo — que muitas vezes confundimos com razão justamente porque não fazem barulho. Quando você resiste ao vídeo das 23h40, talvez não seja a razão vencendo a paixão, mas uma paixão calma (querer acordar bem) vencendo uma paixão violenta.",
+        "## Então, quem tem razão?",
+        "Talvez os dois, cada um iluminando um lado. Platão acerta ao dizer que precisamos de direção e treino — lembra Aristóteles e o hábito, da semana 2? Hume acerta ao mostrar que nenhuma ideia nos move se não tocar algum desejo. A pergunta prática deixa de ser “razão ou emoção?” e vira: **quais paixões estou alimentando, e quem as está educando?** Amanhã, a neurociência vai entrar nessa briga com um dado surpreendente: pessoas que perdem a emoção não ficam mais racionais. Ficam perdidas. E você — anda segurando as rédeas, ou só racionalizando depois aonde os cavalos já foram?"
+      ],
+      "trecho": {
+        "texto": "A razão é, e deve ser apenas, escrava das paixões, e não pode jamais aspirar a outra função além de servi-las e obedecer-lhes.",
+        "fonte": "David Hume, Tratado da Natureza Humana, Livro II, parte 3, seção 3 (1739-40), tradução livre"
+      },
+      "conceitos": [
+        {
+          "termo": "Alegoria da parelha alada",
+          "definicao": "Imagem do Fedro de Platão em que a alma é um cocheiro (razão) conduzindo um cavalo nobre (ímpeto) e um cavalo rebelde (apetite)."
+        },
+        {
+          "termo": "Paixões (em Hume)",
+          "definicao": "Desejos, emoções e afetos que, segundo Hume, são a única fonte de motivação para agir."
+        },
+        {
+          "termo": "Paixões calmas",
+          "definicao": "Desejos estáveis e silenciosos, como a benevolência ou o interesse de longo prazo, que costumamos confundir com a razão."
+        },
+        {
+          "termo": "Racionalização",
+          "definicao": "Criar justificativas lógicas, depois do fato, para algo que já decidimos por desejo ou impulso."
+        }
+      ],
+      "reflexao": [
+        "Pense na última decisão importante que você tomou: a razão escolheu o caminho, ou ela só chegou depois para assinar embaixo do que você já queria?",
+        "Qual é o seu “cavalo rebelde” mais frequente — e o que aconteceria se você parasse de tratá-lo como inimigo e passasse a perguntar o que ele quer?",
+        "Que “paixão calma” você gostaria de fortalecer em você nos próximos meses?"
+      ],
+      "desafio": {
+        "titulo": "Identifique o cavalo",
+        "descricao": "Hoje, na primeira vez que você sentir um impulso dividido (comer, responder rispidamente, adiar uma tarefa), pare cinco segundos e nomeie: que paixão está puxando de cada lado? Anote as duas no celular antes de decidir."
+      },
+      "quiz": [
+        {
+          "pergunta": "Na alegoria do Fedro, qual é a relação ideal entre o cocheiro e os cavalos?",
+          "opcoes": [
+            "O cocheiro deve se livrar dos dois cavalos para seguir a pé",
+            "O cocheiro conduz e educa os cavalos, que fornecem a força da carruagem",
+            "O cavalo nobre deve conduzir o cocheiro",
+            "Os dois cavalos devem decidir o caminho por votação"
+          ],
+          "correta": 1,
+          "explicacao": "Platão propõe hierarquia, não extermínio: a razão dirige, mas sem o ímpeto dos cavalos a alma não se move."
+        },
+        {
+          "pergunta": "Por que Hume diz que a razão é “escrava das paixões”?",
+          "opcoes": [
+            "Porque as pessoas são, em geral, pouco inteligentes",
+            "Porque a razão é sempre enganada pelas emoções",
+            "Porque a razão sozinha não motiva ação: ela informa meios, mas os fins vêm do desejo",
+            "Porque devemos seguir qualquer impulso sem pensar"
+          ],
+          "correta": 2,
+          "explicacao": "Para Hume, a razão descobre fatos e relações; quem dá direção e movimento à ação são as paixões."
+        }
+      ],
+      "ponte": "Amanhã, na Neurociência, Antonio Damasio vai mostrar pacientes que perderam parte da emoção e, em vez de virarem cocheiros perfeitos, ficaram incapazes de decidir — um argumento que Hume adoraria."
+    },
+    {
+      "dia": "ter",
+      "disciplina": "Neurociência",
+      "titulo": "Sem emoção, ninguém decide",
+      "subtitulo": "Antonio Damasio, O Erro de Descartes (1994) e a hipótese do marcador somático",
+      "minutos": 8,
+      "texto": [
+        "Imagine alguém com inteligência intacta, memória ótima, que conversa com lógica impecável sobre qualquer assunto. Agora imagine essa pessoa passando meia hora indecisa entre duas datas para marcar uma consulta, listando prós e contras sem fim. Não é ficção: é o tipo de paciente que levou o neurocientista português Antonio Damasio a escrever *O Erro de Descartes* (1994).",
+        "A história começa em 1848, em Vermont (EUA). Phineas Gage, capataz de ferrovia, socava pólvora numa rocha quando uma explosão lançou uma barra de ferro de mais de um metro através de seu rosto e do topo do crânio. Ele sobreviveu — e chegou a falar minutos depois. Seu médico, John Harlow, relatou em 1868 que o antigo funcionário exemplar tinha se tornado irreverente, impaciente e incapaz de manter planos; os amigos diziam que ele “não era mais Gage”. A lesão atingiu, sobretudo, a região frontal do cérebro.",
+        "**Honestidade aqui:** a história de Gage cresceu muito ao ser recontada. Os relatos diretos são escassos, e o historiador Malcolm Macmillan mostrou que muitos livros inventaram detalhes (bebedeiras, brigas). Mais ainda: Gage depois trabalhou anos como condutor de diligências no Chile, sinal de que recuperou boa parte da vida social. Ele é um bom ponto de partida, não uma prova.",
+        "## Elliot e o paradoxo",
+        "A prova mais sólida veio de pacientes modernos estudados por Damasio, como “Elliot”, que teve um tumor removido junto com parte do **córtex pré-frontal ventromedial** (a área logo acima dos olhos, por trás da testa). Nos testes, Elliot ia bem: QI normal, raciocínio preservado. Mas sua vida desmoronou — perdeu emprego, casamento, dinheiro em negócios ruins. E algo chamava atenção: ele contava a própria tragédia com uma calma estranha, quase sem sentir nada.",
+        "Daí a **hipótese do marcador somático**: ao considerar uma opção, o cérebro reativa sensações corporais associadas a experiências passadas — um aperto no estômago, um alívio no peito. Esses “marcadores” funcionam como alarmes ou luzes verdes que eliminam rapidamente as más opções e tornam a escolha viável. A **amígdala** ajuda a disparar respostas emocionais imediatas; o pré-frontal ventromedial associa essas respostas a situações e futuros possíveis. Sem essa ponte, sobra só a planilha infinita de prós e contras.",
+        "Em experimentos com um jogo de cartas (o *Iowa Gambling Task*, de Antoine Bechara e colegas, anos 1990), pessoas saudáveis começavam a evitar baralhos arriscados, e suas mãos suavam diante deles antes mesmo de saberem explicar por quê; pacientes com lesão ventromedial continuavam escolhendo mal. **Controvérsia:** pesquisadores como Maia e McClelland (2004) mostraram que os participantes sabiam mais conscientemente do que se pensava, e a hipótese segue debatida. Mas a ideia central resistiu: emoção não é ruído da razão; é parte do motor dela.",
+        "Isso muda o jeito de cuidar de si. Ignorar o que você sente não te deixa mais racional; te deixa sem bússola. A pergunta não é “como desligo a emoção?”, mas “como ouço meu corpo sem obedecê-lo cegamente?”. O que seu estômago andou tentando te dizer — e você fingiu não escutar?"
+      ],
+      "trecho": {
+        "texto": "Seus amigos e conhecidos diziam que ele “não era mais Gage”.",
+        "fonte": "John M. Harlow, “Recovery from the passage of an iron bar through the head” (1868), tradução livre"
+      },
+      "conceitos": [
+        {
+          "termo": "Marcador somático",
+          "definicao": "Sinal corporal ligado a uma emoção (como um aperto no peito) que o cérebro associa a uma opção e que orienta a decisão."
+        },
+        {
+          "termo": "Córtex pré-frontal ventromedial",
+          "definicao": "Região frontal do cérebro, acima dos olhos, que integra emoções e consequências futuras na tomada de decisão."
+        },
+        {
+          "termo": "Amígdala",
+          "definicao": "Pequena estrutura no interior do lobo temporal que detecta relevância emocional, como ameaça ou recompensa, e dispara respostas rápidas."
+        },
+        {
+          "termo": "Iowa Gambling Task",
+          "definicao": "Jogo de cartas experimental usado para estudar como sinais emocionais ajudam a aprender quais escolhas são arriscadas."
+        }
+      ],
+      "reflexao": [
+        "Quando foi a última vez que você sentiu no corpo que algo estava errado e ignorou? O que aconteceu depois?",
+        "Você costuma chamar de “ser racional” o simples ato de não querer sentir algo desconfortável?",
+        "Que decisão você vem adiando, presa numa lista infinita de prós e contras, porque falta ouvir o que você realmente sente?"
+      ],
+      "desafio": {
+        "titulo": "Escaneie o corpo antes de decidir",
+        "descricao": "Antes de uma decisão de hoje (aceitar um pedido, responder um e-mail difícil, escolher o almoço), feche os olhos por três respirações e note onde algo se contrai ou relaxa no corpo. Depois decida e repare se a sensação concordou com a escolha."
+      },
+      "quiz": [
+        {
+          "pergunta": "O que o caso de Elliot sugeriu a Damasio?",
+          "opcoes": [
+            "Que o QI alto garante boas decisões",
+            "Que emoções atrapalham sempre o raciocínio",
+            "Que a memória é a base de todas as escolhas",
+            "Que, com a emoção prejudicada, a capacidade de decidir na vida real desaba mesmo com a lógica intacta"
+          ],
+          "correta": 3,
+          "explicacao": "Elliot raciocinava bem em testes, mas sem o colorido emocional das opções não conseguia escolher bem na prática."
+        },
+        {
+          "pergunta": "Qual é a postura mais honesta sobre o caso Phineas Gage hoje?",
+          "opcoes": [
+            "É um ponto de partida histórico importante, mas os relatos foram exagerados e ele parece ter se recuperado em parte",
+            "Prova definitivamente onde fica a personalidade no cérebro",
+            "Foi uma lenda inventada sem nenhum fundamento",
+            "Mostra que lesões cerebrais nunca mudam o comportamento"
+          ],
+          "correta": 0,
+          "explicacao": "O acidente e a mudança inicial são documentados, mas detalhes foram inflados e há indícios de recuperação social posterior."
+        }
+      ],
+      "ponte": "Amanhã, na Literatura, Ivan Ilitch vive exatamente como quem ignora os próprios sinais: uma vida ‘correta’ que o corpo, ao adoecer, começa a desmentir."
+    },
+    {
+      "dia": "qua",
+      "disciplina": "Literatura",
+      "titulo": "Uma vida agradável e decente — e errada",
+      "subtitulo": "Liev Tolstói, A Morte de Ivan Ilitch (1886)",
+      "minutos": 8,
+      "texto": [
+        "O livro começa pelo fim. Num tribunal de São Petersburgo, juízes leem no jornal que o colega Ivan Ilitch morreu. A primeira reação de cada um? Calcular quem vai herdar o cargo. O amigo Piotr Ivánovitch vai ao velório pensando, no fundo, no jogo de cartas daquela noite. Tolstói já nos avisou: esta é a história de alguém cuja morte não interrompeu nada na vida dos outros.",
+        "Então ele volta no tempo. Ivan foi um rapaz agradável, que fez tudo certo: estudou Direito, subiu na carreira, casou com uma moça adequada, comprou um bom apartamento. Quando o casamento azedou, ele se refugiou no trabalho; quando o trabalho cansou, no jogo de cartas com amigos bem-posicionados. Sua regra de ouro era que a vida deveria ser **“agradável e decente”**, e tudo que ameaçasse isso era afastado com polidez. Nada de vícios escandalosos. Nada, também, de amor verdadeiro.",
+        "Um dia, decorando a casa nova, ele sobe numa escada para mostrar ao tapeceiro como pendurar a cortina, escorrega e bate o flanco. Uma dor pequena, que não passa. Médicos dão diagnósticos vagos, falam com ele como ele falava com os réus: com fórmulas frias. A dor cresce, e com ela vem algo pior que a dor: **a mentira**. Família e médicos fingem que ele está apenas doente, não morrendo. Ele mesmo finge. Ninguém tem coragem de dizer a verdade.",
+        "## Guerássim",
+        "Só uma pessoa não mente: Guerássim, o jovem criado camponês, simples e saudável. Ele segura as pernas de Ivan sobre os ombros durante a noite, porque é a única posição em que a dor alivia. Não faz cerimônia: diz, com naturalidade, que todos vamos morrer, então por que não ajudar? Em Guerássim, Ivan encontra o que nunca teve no salão: **presença sem teatro**. Lembra Simone Weil, da semana passada? Atenção pura ao sofrimento do outro é a forma mais rara de generosidade.",
+        "## A pergunta proibida",
+        "Nas últimas semanas, Ivan se pergunta o impensável: **“E se toda a minha vida tiver sido errada?”** Ele resiste, defende-se lembrando que fez tudo como devia. E é justamente isso que o condena: viveu pela aprovação, não pela verdade. Só nos últimos momentos, quando o filho pequeno beija sua mão chorando, ele sente compaixão pela esposa e pelo filho, para de se justificar e percebe uma luz onde antes havia um saco escuro. “Acabou a morte”, pensa. “Ela não existe mais.”",
+        "Lembra do camponês Pakhom, de *De quanta terra precisa um homem?*, na semana 2? Lá, Tolstói mostrava a cobiça; aqui, mostra algo mais sutil e perigoso: a **respeitabilidade**. Ivan não era mau. Era só desatento à própria vida, como o Jacobina de Machado, que precisava da farda para existir. O conto não é sobre morrer; é sobre como evitamos viver. E é por isso que ele abre o Módulo 2: “Como viver?”. Se alguém escrevesse hoje a história da sua vida, ela seria mais “simples e comum” ou mais sua?"
+      ],
+      "trecho": {
+        "texto": "A história da vida de Ivan Ilitch era das mais simples e comuns, e das mais terríveis.",
+        "fonte": "Liev Tolstói, A Morte de Ivan Ilitch, cap. II (1886), tradução livre"
+      },
+      "conceitos": [
+        {
+          "termo": "Vida inautêntica",
+          "definicao": "Existência guiada pelo que “se deve” fazer e pela aprovação alheia, e não por escolhas assumidas pela própria pessoa."
+        },
+        {
+          "termo": "A mentira (em Ivan Ilitch)",
+          "definicao": "O pacto social de fingir que a morte não está acontecendo, que isola o moribundo mais do que a própria doença."
+        },
+        {
+          "termo": "Guerássim",
+          "definicao": "O criado camponês que, por sua simplicidade e honestidade diante da morte, oferece a Ivan a única companhia verdadeira."
+        }
+      ],
+      "reflexao": [
+        "Que partes da sua rotina existem só porque são “agradáveis e decentes”, e não porque você realmente as escolheu?",
+        "Quem é o Guerássim da sua vida — alguém que não finge com você? E você é o Guerássim de quem?",
+        "Se você fizesse hoje a pergunta de Ivan, “e se minha vida estiver errada?”, que resposta você teria medo de ouvir?"
+      ],
+      "desafio": {
+        "titulo": "Um gesto sem teatro",
+        "descricao": "Hoje, em uma conversa, troque uma resposta automática (“tudo bem, e você?”) por uma frase verdadeira sobre como você está, ou ofereça a alguém uma ajuda concreta e silenciosa, à maneira de Guerássim."
+      },
+      "quiz": [
+        {
+          "pergunta": "Qual é, segundo a lição, o principal “erro” da vida de Ivan Ilitch?",
+          "opcoes": [
+            "Ter cometido crimes graves como juiz",
+            "Ter sido pobre e sem oportunidades",
+            "Ter vivido pela aparência e pela aprovação, afastando tudo o que fosse verdadeiro e incômodo",
+            "Ter caído da escada por descuido"
+          ],
+          "correta": 2,
+          "explicacao": "Ivan não era mau; seu problema foi uma vida respeitável e vazia, guiada pelo que era “agradável e decente”."
+        },
+        {
+          "pergunta": "Por que Guerássim é tão importante para Ivan?",
+          "opcoes": [
+            "Porque é o médico que finalmente acerta o diagnóstico",
+            "Porque é o único que não mente sobre a morte e o acompanha com presença simples",
+            "Porque herda o cargo de Ivan no tribunal",
+            "Porque convence Ivan de que ele vai se curar"
+          ],
+          "correta": 1,
+          "explicacao": "Guerássim aceita a morte como parte da vida e por isso consegue estar presente de verdade, sem o teatro dos outros."
+        }
+      ],
+      "ponte": "Amanhã, na Espiritualidade, Santo Agostinho dará um nome à inquietação que Ivan abafou a vida toda: um coração que não descansa enquanto não encontra aquilo para que foi feito."
+    },
+    {
+      "dia": "qui",
+      "disciplina": "Espiritualidade",
+      "titulo": "O coração inquieto",
+      "subtitulo": "Santo Agostinho, Confissões (c. 397-400) e o desejo como bússola",
+      "minutos": 7,
+      "texto": [
+        "Você já conseguiu algo que queria muito — um emprego, uma compra, um relacionamento — e, poucas semanas depois, sentiu de novo aquela coceira de “falta alguma coisa”? Há 1.600 anos, um professor de retórica do norte da África escreveu o livro mais íntimo da Antiguidade para investigar exatamente essa coceira.",
+        "Agostinho nasceu em 354, em Tagaste (atual Argélia). Foi um jovem brilhante e ambicioso: buscou fama em Cartago, Roma e Milão, viveu anos com uma companheira, experimentou várias filosofias e seitas. Nas *Confissões*, ele se expõe sem disfarces: lembra que roubou peras na adolescência não por fome, mas pelo prazer de fazer o proibido com os amigos; confessa que rezava “dá-me a castidade e a continência, mas não agora”. É um livro escrito em forma de conversa com Deus, mas qualquer leitor reconhece ali a própria bagunça interior.",
+        "Logo no primeiro parágrafo, ele resume sua descoberta: **“fizeste-nos para ti, e inquieto está o nosso coração enquanto não repousa em ti”**. A ideia é poderosa mesmo para quem não é religioso: a insatisfação crônica não é um defeito a ser medicado com mais consumo, mas um **sinal**. Nenhum bem finito sacia completamente porque o desejo humano aponta para algo maior do que qualquer objeto. Para Agostinho, esse “maior” é Deus; para um leitor laico, pode ser sentido, verdade, bem, amor. O ponto é o mesmo: sua inquietação é uma bússola, não uma falha.",
+        "## Somos o que amamos",
+        "Aqui Agostinho conversa com Hume e Damasio. Para ele, não somos movidos principalmente por ideias, mas por **amores**. Ele escreve: “meu peso é o meu amor; por ele sou levado aonde quer que eu vá”. Como uma pedra que cai para baixo, somos puxados por aquilo que amamos. Por isso a pergunta decisiva não é “o que você pensa?”, mas “**o que você ama, e em que ordem?**”. Agostinho chamava o desajuste de “amor desordenado”: amar coisas boas no lugar errado, colocando o dinheiro acima das pessoas ou a aprovação acima da verdade — o erro de Ivan Ilitch.",
+        "## “Ama e faze o que quiseres”",
+        "Daí vem sua frase mais famosa e mais mal-entendida. Num sermão sobre a Primeira Carta de João, Agostinho diz: *Dilige, et quod vis fac* — “ama, e faze o que quiseres”. Não é licença para tudo. No contexto, ele explica que o mesmo gesto pode ser bom ou mau conforme a raiz: um pai corrige o filho por amor; um sedutor elogia por interesse. Se a raiz for amor verdadeiro, o que nascer dela será bom. A ética deixa de ser lista de regras e vira cultivo do coração.",
+        "Depois de anos de busca, num jardim em Milão, em 386, Agostinho ouviu uma criança cantar “toma e lê”, abriu as Escrituras e sentiu a inquietação se resolver. Talvez sua história seja outra. Mas a pergunta dele vale para todos: **para onde a sua inquietação aponta — e o que você tem feito para calá-la em vez de escutá-la?**"
+      ],
+      "trecho": {
+        "texto": "Fizeste-nos para ti, e inquieto está o nosso coração enquanto não repousa em ti.",
+        "fonte": "Santo Agostinho, Confissões, Livro I, 1 (c. 397-400), tradução livre do latim “fecisti nos ad te et inquietum est cor nostrum donec requiescat in te”"
+      },
+      "conceitos": [
+        {
+          "termo": "Coração inquieto",
+          "definicao": "Para Agostinho, a insatisfação humana que nenhum bem finito sacia por completo e que aponta para algo maior."
+        },
+        {
+          "termo": "Amor ordenado",
+          "definicao": "Amar cada coisa na medida certa e na ordem certa, sem colocar bens menores no lugar dos maiores."
+        },
+        {
+          "termo": "Dilige, et quod vis fac",
+          "definicao": "“Ama, e faze o que quiseres”: se a raiz da ação é o amor verdadeiro, o que brota dela tende a ser bom."
+        }
+      ],
+      "reflexao": [
+        "Qual foi a última conquista que te deixou satisfeito por menos tempo do que você esperava? O que isso diz sobre o que você realmente procurava?",
+        "Se alguém olhasse sua agenda e seu extrato bancário, que ordem de amores deduziria da sua vida?",
+        "Que inquietação você costuma abafar com distrações — e o que ela diria se você a deixasse falar?"
+      ],
+      "desafio": {
+        "titulo": "Ordene seus amores",
+        "descricao": "Escreva hoje, em um minuto, as cinco coisas que você diz amar mais, em ordem. Depois, ao fim do dia, compare com onde foram de fato seu tempo e sua atenção."
+      },
+      "quiz": [
+        {
+          "pergunta": "Como a lição propõe interpretar a frase “inquieto está o nosso coração” para um leitor não religioso?",
+          "opcoes": [
+            "Como a ideia de que a insatisfação crônica é um sinal de que buscamos algo maior que qualquer bem finito",
+            "Como um diagnóstico de ansiedade que exige medicação",
+            "Como a prova de que o desejo humano é sempre perigoso",
+            "Como um convite a desejar menos e se conformar"
+          ],
+          "correta": 0,
+          "explicacao": "Para Agostinho o alvo é Deus, mas a estrutura vale para todos: o desejo aponta para além dos objetos e funciona como bússola."
+        },
+        {
+          "pergunta": "O que Agostinho quer dizer com “ama, e faze o que quiseres”?",
+          "opcoes": [
+            "Que qualquer desejo é legítimo",
+            "Que regras morais não importam",
+            "Que só os religiosos podem agir bem",
+            "Que a bondade de um ato depende da raiz: se ela é amor verdadeiro, a ação tende a ser boa"
+          ],
+          "correta": 3,
+          "explicacao": "No contexto do sermão, ele mostra que o mesmo gesto muda de valor conforme nasce do amor ou do interesse."
+        }
+      ],
+      "ponte": "Hume diria que as paixões governam; Damasio, que sem emoção não decidimos; Agostinho acrescenta que o essencial é educar o que amamos — uma resposta espiritual ao cocheiro de Platão."
+    }
+  ],
+  "sexta": {
+    "titulo": "Quem sou eu, depois destas quatro semanas?",
+    "proposta": "Este é o texto de encerramento do Módulo 1, “Conhece-te a ti mesmo”. Você começou com Sócrates dizendo que uma vida sem exame não vale a pena e com a notícia de que o cérebro muda com a prática; passou pelo hábito de Aristóteles, pela dopamina e pela cobiça do camponês de Tolstói; desceu à Caverna de Platão, à mente que divaga e à atenção de Simone Weil; e terminou esta semana descobrindo que razão e emoção não são inimigas, e que somos movidos por aquilo que amamos. Agora escreva um texto pessoal, em primeira pessoa, que responda: quem é o “eu” que governa minhas escolhas — e o que eu quero levar desse autoconhecimento para a pergunta do próximo módulo, “Como viver?”. Não é um resumo das lições: é um retrato honesto de você, usando as ideias como lentes. Escrever obriga a organizar o que ficou solto e transforma leitura em convicção.",
+    "perguntas_guia": [
+      "Na sua vida, quem costuma segurar as rédeas: o cocheiro, o cavalo nobre ou o cavalo rebelde? Dê um exemplo concreto desta semana.",
+      "Que ideia do módulo (Sócrates, hábito, caverna, atenção, marcadores somáticos, Ivan Ilitch, coração inquieto...) mais mudou a forma como você se enxerga, e por quê?",
+      "Em que ponto da sua rotina você se reconhece em Ivan Ilitch, vivendo de modo “agradável e decente”, mas pouco seu?",
+      "Para onde aponta a sua inquietação hoje, e que pergunta você quer levar para o Módulo 2, “Como viver?”"
+    ],
+    "palavras_minimas": 300,
+    "criterios": [
+      "Escrevi em primeira pessoa, com pelo menos um exemplo concreto da minha vida, e não apenas ideias abstratas.",
+      "Conectei pelo menos duas lições desta semana e pelo menos uma das semanas anteriores do módulo.",
+      "Fui honesto sobre algo desconfortável que descobri sobre mim, sem me justificar como Ivan Ilitch.",
+      "Mostrei que entendi a relação entre razão e emoção, sem tratá-las como simples inimigas.",
+      "Terminei com uma pergunta ou compromisso concreto que levo para o Módulo 2."
+    ]
+  }
+}

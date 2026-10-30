@@ -1,0 +1,89 @@
+{
+  "inicio": "2026-11-02",
+  "dias": {
+    "seg": "Filosofia",
+    "ter": "Neurociência",
+    "qua": "Literatura",
+    "qui": "Espiritualidade",
+    "sex": "Escrita"
+  },
+  "modulos": [
+    {
+      "numero": 1,
+      "titulo": "Conhece-te a ti mesmo",
+      "descricao": "O ponto de partida: examinar a própria vida, entender como o cérebro se molda, quem governa nossas escolhas.",
+      "semanas": [
+        { "numero": 1, "tema": "O despertar: examinar a própria vida", "destaques": ["Sócrates", "Neuroplasticidade", "Machado — O Espelho", "Sêneca e Marco Aurélio"] },
+        { "numero": 2, "tema": "Hábitos: nos tornamos o que repetimos", "destaques": ["Aristóteles", "Gânglios da base e dopamina", "Tolstói — De quanta terra precisa um homem?", "Eclesiastes"] },
+        { "numero": 3, "tema": "Atenção e memória: onde está sua mente?", "destaques": ["Platão — A Caverna", "A mente que divaga", "Borges — Funes, o memorioso", "Simone Weil e a atenção"] },
+        { "numero": 4, "tema": "Emoção e razão: quem governa você?", "destaques": ["Platão vs. Hume", "Damasio e o marcador somático", "Tolstói — A Morte de Ivan Ilitch", "Santo Agostinho"] }
+      ]
+    },
+    {
+      "numero": 2,
+      "titulo": "Como viver?",
+      "descricao": "As escolas de vida da Antiguidade e o que a ciência diz sobre estresse, prazer e bem-estar.",
+      "semanas": [
+        { "numero": 5, "tema": "O que depende de mim", "destaques": ["Epicteto", "Estresse e cortisol", "Tchekhov", "Oração da serenidade"] },
+        { "numero": 6, "tema": "Prazer e desejo", "destaques": ["Epicuro", "Dopamina e a esteira hedônica", "Flaubert — Madame Bovary", "Budismo e o desejo"] },
+        { "numero": 7, "tema": "Morte e finitude", "destaques": ["Montaigne", "Memória e envelhecimento", "Tolstói — Ivan Ilitch (de novo, mais fundo)", "Memento mori"] },
+        { "numero": 8, "tema": "O outro", "destaques": ["Amizade em Aristóteles", "Neurociência social", "Machado — Dom Casmurro", "Martin Buber — Eu e Tu"] }
+      ]
+    },
+    {
+      "numero": 3,
+      "titulo": "O bem e o mal",
+      "descricao": "De onde vem a moral? Dever, consequência, banalidade do mal — e o cérebro moral.",
+      "semanas": [
+        { "numero": 9, "tema": "O dever", "destaques": ["Kant"] },
+        { "numero": 10, "tema": "As consequências", "destaques": ["Stuart Mill"] },
+        { "numero": 11, "tema": "A banalidade do mal", "destaques": ["Hannah Arendt"] },
+        { "numero": 12, "tema": "Compaixão", "destaques": ["O bom samaritano", "Schopenhauer"] }
+      ]
+    },
+    {
+      "numero": 4,
+      "titulo": "Angústia e liberdade",
+      "descricao": "Pascal, Kierkegaard, Schopenhauer e Kafka: o ser humano diante do abismo — e o debate sobre o livre-arbítrio.",
+      "semanas": [
+        { "numero": 13, "tema": "O caniço pensante", "destaques": ["Pascal"] },
+        { "numero": 14, "tema": "O salto da fé", "destaques": ["Kierkegaard"] },
+        { "numero": 15, "tema": "A vontade cega", "destaques": ["Schopenhauer"] },
+        { "numero": 16, "tema": "O absurdo burocrático", "destaques": ["Kafka — A Metamorfose"] }
+      ]
+    },
+    {
+      "numero": 5,
+      "titulo": "Dostoiévski",
+      "descricao": "Liberdade, culpa, sofrimento e redenção no romancista que mergulhou mais fundo na alma humana.",
+      "semanas": [
+        { "numero": 17, "tema": "O homem do subsolo", "destaques": ["Memórias do Subsolo"] },
+        { "numero": 18, "tema": "Crime e castigo", "destaques": ["Raskólnikov"] },
+        { "numero": 19, "tema": "O Grande Inquisidor", "destaques": ["Os Irmãos Karamázov"] },
+        { "numero": 20, "tema": "O homem bom demais", "destaques": ["O Idiota"] }
+      ]
+    },
+    {
+      "numero": 6,
+      "titulo": "Nietzsche",
+      "descricao": "A morte de Deus, o niilismo e a tarefa de criar valores — afirmar a vida inteira, até a dor.",
+      "semanas": [
+        { "numero": 21, "tema": "Deus está morto", "destaques": ["A Gaia Ciência"] },
+        { "numero": 22, "tema": "Genealogia da moral", "destaques": ["Senhores e escravos"] },
+        { "numero": 23, "tema": "O eterno retorno", "destaques": ["Assim Falou Zaratustra"] },
+        { "numero": 24, "tema": "Amor fati", "destaques": ["Ecce Homo"] }
+      ]
+    },
+    {
+      "numero": 7,
+      "titulo": "O sentido",
+      "descricao": "Síntese: depois do abismo, o que resta? Camus, Frankl, Simone Weil e Guimarães Rosa.",
+      "semanas": [
+        { "numero": 25, "tema": "Sísifo feliz", "destaques": ["Camus"] },
+        { "numero": 26, "tema": "Em busca de sentido", "destaques": ["Viktor Frankl"] },
+        { "numero": 27, "tema": "A gravidade e a graça", "destaques": ["Simone Weil"] },
+        { "numero": 28, "tema": "Viver é muito perigoso", "destaques": ["Guimarães Rosa — Grande Sertão: Veredas"] }
+      ]
+    }
+  ]
+}
